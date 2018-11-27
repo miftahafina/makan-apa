@@ -48,33 +48,33 @@ export default class App extends React.Component {
           {
             name: 'A',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Sup sayuran ayam rajang, tahu goreng, susu',
+              lunch    : 'Ikan patin goreng kuah santan, kemangi, buah',
+              dinner   : 'Ayam bumbu balado, lalapan kol, kerupuk, buah'
             }
           },
           {
             name: 'B',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Daging tahu pong bumbu rendang, kerupuk udang, susu',
+              lunch    : 'Sayur bayam, galantin, sambal terasi, kerupuk, buah',
+              dinner   : 'Ayam rica-rica, lalapan kol, kerupuk rambak, buah'
             }
           },
           {
             name: 'C',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Opor ayam, kerupuk rambak, susu',
+              lunch    : 'Sayur lodeh, galantin kakap, buah',
+              dinner   : 'Ikan patin goreng bumbu kuning, lalapan timun, buah'
             }
           },
           {
             name: 'D',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Sambal balado terong ungu, pindang goreng, susu',
+              lunch    : 'Bandeng presto goreng, bumbu bali, buah',
+              dinner   : 'Ayam pedas, lalapan timun, kerupuk, buah'
             }
           }
         ]
@@ -86,33 +86,33 @@ export default class App extends React.Component {
           {
             name: 'A',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Galantin kakap bumbu rujak, kerupuk tempe',
+              lunch    : 'Sayur asem, pindang goreng, susu',
+              dinner   : 'Mie goreng sayuran, telur rebus, buah'
             }
           },
           {
             name: 'B',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Tahu terik kuning, telur asin',
+              lunch    : 'Bakso daging sapi komplit, pangsit, susu',
+              dinner   : 'Nugget kakap, sambal kerupuk, buah'
             }
           },
           {
             name: 'C',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Tumis buncis + ebi bumbu kuning, tahu bakso ikan',
+              lunch    : 'Gulai daging sapi, karak, susu',
+              dinner   : 'Balado tempe + ebi, kerupuk udang, buah'
             }
           },
           {
             name: 'D',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Oseng tahu + kacang panjang, pepes ikan, kerupuk rambak',
+              lunch    : 'Soto daging sapi, karak, susu',
+              dinner   : 'Sambal goreng janten + tahu + ebi, telur asin, buah'
             }
           }
         ]
