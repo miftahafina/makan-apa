@@ -3,8 +3,11 @@ import { StyleSheet, Text, View, AppRegistry } from 'react-native';
 
 export default class App extends React.Component {
   state = {
+    today: new Date().getDay(),
+
     schedule: [
       {
+        id  : 0,
         day : 'Ahad',
         type: [
           {
@@ -43,6 +46,7 @@ export default class App extends React.Component {
       },
 
       {
+        id  : 1,
         day : 'Senin',
         type: [
           {
@@ -81,6 +85,7 @@ export default class App extends React.Component {
       },
 
       {
+        id  : 2,
         day : 'Selasa',
         type: [
           {
@@ -119,6 +124,7 @@ export default class App extends React.Component {
       },
 
       {
+        id  : 3,
         day : 'Rabu',
         type: [
           {
@@ -157,6 +163,7 @@ export default class App extends React.Component {
       },
 
       {
+        id  : 4,
         day : 'Kamis',
         type: [
           {
@@ -195,6 +202,7 @@ export default class App extends React.Component {
       },
 
       {
+        id  : 5,
         day : 'Jum\'at',
         type: [
           {
@@ -233,6 +241,7 @@ export default class App extends React.Component {
       },
 
       {
+        id  : 6,
         day : 'Sabtu',
         type: [
           {
@@ -273,11 +282,23 @@ export default class App extends React.Component {
   }
 
   render() {
+    const { today, schedule } = this.state;
+
     return (
       <View style={styles.container}>
-        <Text>Hari: {this.state.schedule[0].day}</Text>
-        <Text>Tipe: {this.state.schedule[0].type[1].name}</Text>
-        <Text>Sarapan: {this.state.schedule[0].type[1].menu.lunch}</Text>
+        <Text>Today: {today}</Text>
+        <Text>Hari: { schedule[today].day }</Text>
+        <Text>Tipe: { schedule[today].type[0].name }</Text>
+        <Text>Sarapan: { schedule[today].type[0].menu.lunch }</Text>
+
+        <Text>Tipe: { schedule[today].type[1].name }</Text>
+        <Text>Sarapan: { schedule[today].type[1].menu.lunch }</Text>
+
+        <Text>Tipe: { schedule[today].type[2].name }</Text>
+        <Text>Sarapan: { schedule[today].type[2].menu.lunch }</Text>
+
+        <Text>Tipe: { schedule[today].type[3].name }</Text>
+        <Text>Sarapan: { schedule[today].type[3].menu.lunch }</Text>
       </View>
     );
   }
