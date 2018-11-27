@@ -8,7 +8,7 @@ export default class SideDishBox extends React.Component {
     return (
       <View style={container}>
         <View style={box}></View>
-        <Text style={text}>Bakso daging sapi komplit banget full</Text>
+        <Text style={text}>Bakso daging nama lauk yang panjang</Text>
       </View>
     );
   }
@@ -16,22 +16,22 @@ export default class SideDishBox extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'gray'
+    width: 120,
+    backgroundColor: '#fff',
+    borderWidth: 1,
+    borderColor: 'gray'
   },
 
   box: {
-    backgroundColor: '#333',
-    borderRadius   : 10,
     width          : 100,
     height         : 100,
-    margin         : 10
+    margin         : 10,
+    borderRadius   : 20,
+    backgroundColor: '#333'
   },
 
   text: {
-    fontSize: 12
+    fontSize: 12,
+    textAlign: 'center'
   }
 });
