@@ -238,33 +238,33 @@ export default class App extends React.Component {
           {
             name: 'A',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Sambal goreng jepan + ebi + telur puyuh, kerupuk udang, buah',
+              lunch    : 'Garang asem ayam, kerupuk, susu',
+              dinner   : 'Cah sayuran bakso, tempe goreng, kerupuk, buah'
             }
           },
           {
             name: 'B',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Sambal goreng tempe + ebi + kentang, kerupuk rambak',
+              lunch    : 'Rawon surabaya, kerupuk udang, susu',
+              dinner   : 'Bakmi kuah ayam rajang, kerupuk bawang, buah'
             }
           },
           {
             name: 'C',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Cap cay sayur bakso ikan saus tiram, kerupuk udang',
+              lunch    : 'Sayur asem, pindang goreng, susu',
+              dinner   : 'Tongseng ayam, kerupuk rambak, buah'
             }
           },
           {
             name: 'D',
             menu: {
-              breakfast: '',
-              lunch    : '',
-              dinner   : ''
+              breakfast: 'Oseng kentang + bihun, tahu bakso, kerupuk rambak',
+              lunch    : 'Sup ayam sayuran, kerupuk udang, susu',
+              dinner   : 'Galantin goreng, sambal saus bombay, kerupuk tempe, buah'
             }
           }
         ]
