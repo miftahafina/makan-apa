@@ -15,7 +15,16 @@ export default class App extends React.Component {
 
     return (
       <View style={container}>
-        <SideDishScroller />
+        <ScrollView>
+          <SideDishScroller />
+          <SideDishScroller />
+          <SideDishScroller />
+          <SideDishScroller />
+          <SideDishScroller />
+          <SideDishScroller />
+          <SideDishScroller />
+          <SideDishScroller />
+        </ScrollView>
       </View>
     );
   }
@@ -25,8 +34,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    flexDirection: 'row',
+    alignItems: 'flex-start',
+    flexDirection: 'column',
     justifyContent: 'flex-start',
   },
 
