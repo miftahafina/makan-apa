@@ -18,8 +18,8 @@ const styles = StyleSheet.create({
   container: {
     width: 120,
     backgroundColor: '#fff',
-    borderWidth: 1,
-    borderColor: 'gray'
+    // borderWidth: 1,
+    // borderColor: 'gray'
   },
 
   box: {

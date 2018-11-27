@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   },
 
   scrollHorizontalContainer: {
-    paddingHorizontal: 10
+    // paddingHorizontal: 10
   }
 });
 
