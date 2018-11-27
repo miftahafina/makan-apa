@@ -16,12 +16,12 @@ export default class MealsTitle extends React.Component {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: '#fff',
-    borderWidth: 1,
+    // borderWidth: 1,
     borderColor: 'gray'
   },
 
   text: {
-    fontSize: 20,
+    fontSize: 22,
     textAlign: 'left'
   }
 });

@@ -29,13 +29,20 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    borderColor: 'green',
-    borderWidth: 1,
-    alignItems: 'flex-start',
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
+    flex                  : 1,
+    backgroundColor       : '#fff',
+    borderColor           : 'grey',
+    borderWidth           : 1,
+    alignItems            : 'flex-start',
+    flexDirection         : 'column',
+    justifyContent        : 'flex-start',
+    marginBottom          : 20,
+    paddingTop            : 5,
+    paddingRight          : 10,
+    paddingBottom         : 10,
+    paddingLeft           : 10,
+    borderTopLeftRadius   : 20,
+    borderBottomLeftRadius: 20
   },
 
   scrollHorizontalContainer: {

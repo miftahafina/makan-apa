@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
 import schedule from './databases/schedule.json';
 import SideDishScroller from './components/SideDishScroller';
+import Today from './components/Today';
 
 export default class App extends React.Component {
   state = {
@@ -11,16 +12,12 @@ export default class App extends React.Component {
 
   render() {
     const { today, schedule } = this.state;
-    const { container, scrollHorizontalContainer } = styles;
+    const { container, verticalScroll } = styles;
 
     return (
       <View style={container}>
-        <ScrollView>
-          <SideDishScroller />
-          <SideDishScroller />
-          <SideDishScroller />
-          <SideDishScroller />
-          <SideDishScroller />
+        <Today />
+        <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
           <SideDishScroller />
           <SideDishScroller />
           <SideDishScroller />
@@ -37,9 +34,12 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     flexDirection: 'column',
     justifyContent: 'flex-start',
+    marginTop: 30,
+    marginLeft: 15,
+    marginRight: -2
   },
 
-  scrollHorizontalContainer: {
+  verticalScroll: {
     // paddingHorizontal: 20
   }
 });
