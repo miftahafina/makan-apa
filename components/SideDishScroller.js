@@ -2,10 +2,16 @@ import React from 'react';
 import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
 import SideDishBox from './SideDishBox';
 import MealsTitle from './MealsTitle';
+import schedule from '../databases/schedule.json';
 
 export default class App extends React.Component {
+  state = {
+    schedule: schedule
+  }
+
   render() {
     const { container, scrollHorizontalContainer } = styles;
+    const { schedule } = this.state;
 
     return (
       <View style={container}>
@@ -15,12 +21,7 @@ export default class App extends React.Component {
           style={scrollHorizontalContainer}
           showsHorizontalScrollIndicator={false}
         >
-          <SideDishBox />
-          <SideDishBox />
-          <SideDishBox />
-          <SideDishBox />
-          <SideDishBox />
-          <SideDishBox />
+          <SideDishBox>{JSON.stringify(schedule[0].type[0].menu.lunch[2].side)}</SideDishBox>
         </ScrollView>
       </View>
     );

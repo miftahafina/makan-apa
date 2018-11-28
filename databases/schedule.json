@@ -7,21 +7,54 @@
         "name": "A",
         "menu": {
           "breakfast": [
-            "Oseng tahu kacang panjang",
-            "pepes ikan",
-            "kerupuk"
+            {
+              "side": "Oseng tahu kacang panjang",
+              "img" : ""
+            },
+            {
+              "side": "pepes ikan",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Gado-gado",
-            "telur rebus",
-            "peyek",
-            "bubur kacang hijau"
+            {
+              "side": "Gado-gado",
+              "img" : ""
+            },
+            {
+              "side": "telur rebus",
+              "img" : ""
+            },
+            {
+              "side": "peyek",
+              "img" : ""
+            },
+            {
+              "side": "bubur kacang hijau",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Bandeng goreng",
-            "sambel tomat",
-            "kerupuk rambak",
-            "buah"
+            {
+              "side": "Bandeng goreng",
+              "img" : ""
+            },
+            {
+              "side": "sambel tomat",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -29,19 +62,46 @@
         "name": "B",
         "menu": {
           "breakfast": [
-            "Opor telur",
-            "kerupuk rambak"
+            {
+              "side": "Opor telur",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Soto daging sapi",
-            "karak",
-            "bubur kacang hijau"
+            {
+              "side": "Soto daging sapi",
+              "img" : ""
+            },
+            {
+              "side": "karak",
+              "img" : ""
+            },
+            {
+              "side": "bubur kacang hijau",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Gado-gado",
-            "telur rebus",
-            "peyek",
-            "buah"
+            {
+              "side": "Gado-gado",
+              "img" : ""
+            },
+            {
+              "side": "telur rebus",
+              "img" : ""
+            },
+            {
+              "side": "peyek",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -49,18 +109,42 @@
         "name": "C",
         "menu": {
           "breakfast": [
-            "Bandeng bumbu sarden",
-            "kerupuk"
+            {
+              "side": "Bandeng bumbu sarden",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Soto ayam lamongan",
-            "tempe goreng",
-            "bubur kacang hijau"
+            {
+              "side": "Soto ayam lamongan",
+              "img" : ""
+            },
+            {
+              "side": "tempe goreng",
+              "img" : ""
+            },
+            {
+              "side": "bubur kacang hijau",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Bakso kuah tahu",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Bakso kuah tahu",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -68,21 +152,54 @@
         "name": "D",
         "menu": {
           "breakfast": [
-            "Soto ayam",
-            "tempe goreng",
-            "kerupuk"
+            {
+              "side": "Soto ayam",
+              "img" : ""
+            },
+            {
+              "side": "tempe goreng",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Bakso daging sapi komplit",
-            "pangsit",
-            "susu"
+            {
+              "side": "Bakso daging sapi komplit",
+              "img" : ""
+            },
+            {
+              "side": "pangsit",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Nasi kuning",
-            "nugget kakap",
-            "kerupuk bawang",
-            "sambel tomat",
-            "buah"
+            {
+              "side": "Nasi kuning",
+              "img" : ""
+            },
+            {
+              "side": "nugget kakap",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk bawang",
+              "img" : ""
+            },
+            {
+              "side": "sambel tomat",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       }
@@ -96,20 +213,50 @@
         "name": "A",
         "menu": {
           "breakfast": [
-            "Sup sayuran ayam rajang",
-            "tahu goreng",
-            "susu"
+            {
+              "side": "Sup sayuran ayam rajang",
+              "img" : ""
+            },
+            {
+              "side": "tahu goreng",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ikan patin goreng kuah santan",
-            "kemangi",
-            "buah"
+            {
+              "side": "Ikan patin goreng kuah santan",
+              "img" : ""
+            },
+            {
+              "side": "kemangi",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Ayam bumbu balado",
-            "lalapan kol",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Ayam bumbu balado",
+              "img" : ""
+            },
+            {
+              "side": "lalapan kol",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -117,22 +264,58 @@
         "name": "B",
         "menu": {
           "breakfast": [
-            "Daging tahu pong bumbu rendang",
-            "kerupuk udang",
-            "susu"
+            {
+              "side": "Daging tahu pong bumbu rendang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Sayur bayam",
-            "galantin",
-            "sambal terasi",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Sayur bayam",
+              "img" : ""
+            },
+            {
+              "side": "galantin",
+              "img" : ""
+            },
+            {
+              "side": "sambal terasi",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Ayam rica-rica",
-            "lalapan kol",
-            "kerupuk rambak",
-            "buah"
+            {
+              "side": "Ayam rica-rica",
+              "img" : ""
+            },
+            {
+              "side": "lalapan kol",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -140,19 +323,46 @@
         "name": "C",
         "menu": {
           "breakfast": [
-            "Opor ayam",
-            "kerupuk rambak",
-            "susu"
+            {
+              "side": "Opor ayam",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Sayur lodeh",
-            "galantin kakap",
-            "buah"
+            {
+              "side": "Sayur lodeh",
+              "img" : ""
+            },
+            {
+              "side": "galantin kakap",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Ikan patin goreng bumbu kuning",
-            "lalapan timun",
-            "buah"
+            {
+              "side": "Ikan patin goreng bumbu kuning",
+              "img" : ""
+            },
+            {
+              "side": "lalapan timun",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -160,20 +370,50 @@
         "name": "D",
         "menu": {
           "breakfast": [
-            "Sambal balado terong ungu",
-            "pindang goreng",
-            "susu"
+            {
+              "side": "Sambal balado terong ungu",
+              "img" : ""
+            },
+            {
+              "side": "pindang goreng",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Bandeng presto goreng",
-            "bumbu bali",
-            "buah"
+            {
+              "side": "Bandeng presto goreng",
+              "img" : ""
+            },
+            {
+              "side": "bumbu bali",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Ayam pedas",
-            "lalapan timun",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Ayam pedas",
+              "img" : ""
+            },
+            {
+              "side": "lalapan timun",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       }
@@ -187,18 +427,42 @@
         "name": "A",
         "menu": {
           "breakfast": [
-            "Galantin kakap bumbu rujak",
-            "kerupuk tempe"
+            {
+              "side": "Galantin kakap bumbu rujak",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk tempe",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Sayur asem",
-            "pindang goreng",
-            "susu"
+            {
+              "side": "Sayur asem",
+              "img" : ""
+            },
+            {
+              "side": "pindang goreng",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Mie goreng sayuran",
-            "telur rebus",
-            "buah"
+            {
+              "side": "Mie goreng sayuran",
+              "img" : ""
+            },
+            {
+              "side": "telur rebus",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -206,18 +470,46 @@
         "name": "B",
         "menu": {
           "breakfast": [
-            "Tahu terik kuning",
-            "telur asin"
+            {
+              "side": "Tahu terik kuning",
+              "img" : ""
+            },
+            {
+              "side": "telur asin",
+              "img" : ""
+            },
+            {
+              "side": "",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Bakso daging sapi komplit",
-            "pangsit",
-            "susu"
+            {
+              "side": "Bakso daging sapi komplit",
+              "img" : ""
+            },
+            {
+              "side": "pangsit",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Nugget kakap",
-            "sambal kerupuk",
-            "buah"
+            {
+              "side": "Nugget kakap",
+              "img" : ""
+            },
+            {
+              "side": "sambal kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -225,18 +517,42 @@
         "name": "C",
         "menu": {
           "breakfast": [
-            "Tumis buncis + ebi bumbu kuning",
-            "tahu bakso ikan"
+            {
+              "side": "Tumis buncis + ebi bumbu kuning",
+              "img" : ""
+            },
+            {
+              "side": "tahu bakso ikan",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Gulai daging sapi",
-            "karak",
-            "susu"
+            {
+              "side": "Gulai daging sapi",
+              "img" : ""
+            },
+            {
+              "side": "karak",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Balado tempe + ebi",
-            "kerupuk udang",
-            "buah"
+            {
+              "side": "Balado tempe + ebi",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -244,19 +560,46 @@
         "name": "D",
         "menu": {
           "breakfast": [
-            "Oseng tahu + kacang panjang",
-            "pepes ikan",
-            "kerupuk rambak"
+            {
+              "side": "Oseng tahu + kacang panjang",
+              "img" : ""
+            },
+            {
+              "side": "pepes ikan",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Soto daging sapi",
-            "karak",
-            "susu"
+            {
+              "side": "Soto daging sapi",
+              "img" : ""
+            },
+            {
+              "side": "karak",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Sambal goreng janten + tahu + ebi",
-            "telur asin",
-            "buah"
+            {
+              "side": "Sambal goreng janten + tahu + ebi",
+              "img" : ""
+            },
+            {
+              "side": "telur asin",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       }
@@ -270,18 +613,42 @@
         "name": "A",
         "menu": {
           "breakfast": [
-            "Sayuran bakso sapi bumbu lada hitam",
-            "kerupuk udang"
+            {
+              "side": "Sayuran bakso sapi bumbu lada hitam",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Soto daging sapi",
-            "karak",
-            "bubur kacang hijau"
+            {
+              "side": "Soto daging sapi",
+              "img" : ""
+            },
+            {
+              "side": "karak",
+              "img" : ""
+            },
+            {
+              "side": "bubur kacang hijau",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Sambal goreng kering tahu + kentang",
-            "kerupuk rambak",
-            "buah"
+            {
+              "side": "Sambal goreng kering tahu + kentang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -289,19 +656,46 @@
         "name": "B",
         "menu": {
           "breakfast": [
-            "Tumis bakso ikan sayur pedas manis",
-            "kerupuk tempe"
+            {
+              "side": "Tumis bakso ikan sayur pedas manis",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk tempe",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ayam bacem",
-            "lalapan timun",
-            "sambel ijo",
-            "bubur kacang hijau"
+            {
+              "side": "Ayam bacem",
+              "img" : ""
+            },
+            {
+              "side": "lalapan timun",
+              "img" : ""
+            },
+            {
+              "side": "sambel ijo",
+              "img" : ""
+            },
+            {
+              "side": "bubur kacang hijau",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Sup sayuran bakso sapi",
-            "tahu goreng",
-            "buah"
+            {
+              "side": "Sup sayuran bakso sapi",
+              "img" : ""
+            },
+            {
+              "side": "tahu goreng",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -309,17 +703,38 @@
         "name": "C",
         "menu": {
           "breakfast": [
-            "Mie goreng bakso",
-            "telur rebus"
+            {
+              "side": "Mie goreng bakso",
+              "img" : ""
+            },
+            {
+              "side": "telur rebus",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ayam tepung",
-            "sambal bajak",
-            "bubur kacang hijau"
+            {
+              "side": "Ayam tepung",
+              "img" : ""
+            },
+            {
+              "side": "sambal bajak",
+              "img" : ""
+            },
+            {
+              "side": "bubur kacang hijau",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Oseng tahu jamur",
-            "telur puyuh"
+            {
+              "side": "Oseng tahu jamur",
+              "img" : ""
+            },
+            {
+              "side": "telur puyuh",
+              "img" : ""
+            }
           ]
         }
       },
@@ -327,18 +742,42 @@
         "name": "D",
         "menu": {
           "breakfast": [
-            "Kare ayam",
-            "kerupuk tempe"
+            {
+              "side": "Kare ayam",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk tempe",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ikan patin goreng bumbu merah",
-            "lalapan kol",
-            "buah"
+            {
+              "side": "Ikan patin goreng bumbu merah",
+              "img" : ""
+            },
+            {
+              "side": "lalapan kol",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Tumis buncis ayam rajang",
-            "kerupuk udang",
-            "buah"
+            {
+              "side": "Tumis buncis ayam rajang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       }
@@ -352,21 +791,54 @@
         "name": "A",
         "menu": {
           "breakfast": [
-            "Oseng janten + ebi + wortel + ayam",
-            "telor rebus",
-            "susu"
+            {
+              "side": "Oseng janten + ebi + wortel + ayam",
+              "img" : ""
+            },
+            {
+              "side": "telor rebus",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Sayur lodeh",
-            "galantin goreng",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Sayur lodeh",
+              "img" : ""
+            },
+            {
+              "side": "galantin goreng",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Ayam tepung",
-            "sambal tomat",
-            "lalapan timun",
-            "buah"
+            {
+              "side": "Ayam tepung",
+              "img" : ""
+            },
+            {
+              "side": "sambal tomat",
+              "img" : ""
+            },
+            {
+              "side": "lalapan timun",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -374,20 +846,50 @@
         "name": "B",
         "menu": {
           "breakfast": [
-            "Oseng tempe kacang panjang",
-            "telur rebus",
-            "susu"
+            {
+              "side": "Oseng tempe kacang panjang",
+              "img" : ""
+            },
+            {
+              "side": "telur rebus",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ikan patin ayam pedas",
-            "lalapan timun",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Ikan patin ayam pedas",
+              "img" : ""
+            },
+            {
+              "side": "lalapan timun",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Ayam bumbu bali",
-            "kerupuk udang",
-            "buah"
+            {
+              "side": "Ayam bumbu bali",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -395,19 +897,46 @@
         "name": "C",
         "menu": {
           "breakfast": [
-            "Rendang daging tahu",
-            "kerupuk tempe",
-            "susu"
+            {
+              "side": "Rendang daging tahu",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk tempe",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Sup",
-            "nugget kakap goreng",
-            "buah"
+            {
+              "side": "Sup",
+              "img" : ""
+            },
+            {
+              "side": "nugget kakap goreng",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Rendang ayam",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Rendang ayam",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -415,20 +944,50 @@
         "name": "D",
         "menu": {
           "breakfast": [
-            "Sup sayuran bakso ikan",
-            "tempe bacem",
-            "susu"
+            {
+              "side": "Sup sayuran bakso ikan",
+              "img" : ""
+            },
+            {
+              "side": "tempe bacem",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Asem-asem daging janten",
-            "tahu goreng",
-            "buah"
+            {
+              "side": "Asem-asem daging janten",
+              "img" : ""
+            },
+            {
+              "side": "tahu goreng",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Ayam bacem",
-            "lalapan kol + kemangi",
-            "sambal ijo",
-            "buah"
+            {
+              "side": "Ayam bacem",
+              "img" : ""
+            },
+            {
+              "side": "lalapan kol + kemangi",
+              "img" : ""
+            },
+            {
+              "side": "sambal ijo",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       }
@@ -442,18 +1001,42 @@
         "name": "A",
         "menu": {
           "breakfast": [
-            "Nasi kuning + kering tempe + kacang",
-            "kerupuk bawang"
+            {
+              "side": "Nasi kuning + kering tempe + kacang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk bawang",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ayam goreng bumbu kecap",
-            "Lalapan kol",
-            "buah"
+            {
+              "side": "Ayam goreng bumbu kecap",
+              "img" : ""
+            },
+            {
+              "side": "Lalapan kol",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Orak-arik telur",
-            "kerupuk tempe",
-            "buah"
+            {
+              "side": "Orak-arik telur",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk tempe",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -461,18 +1044,46 @@
         "name": "B",
         "menu": {
           "breakfast": [
-            "Pecel tahu kol + tauge",
-            "peyek"
+            {
+              "side": "Pecel tahu kol + tauge",
+              "img" : ""
+            },
+            {
+              "side": "peyek",
+              "img" : ""
+            },
+            {
+              "side": "",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ayam goreng bumbu merah",
-            "lalapan kol",
-            "buah"
+            {
+              "side": "Ayam goreng bumbu merah",
+              "img" : ""
+            },
+            {
+              "side": "lalapan kol",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Nasi goreng sayuran ayam rajang",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Nasi goreng sayuran ayam rajang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -480,19 +1091,46 @@
         "name": "C",
         "menu": {
           "breakfast": [
-            "Nasi uduk",
-            "sambel goreng kentang + tahu",
-            "kerupuk bawang"
+            {
+              "side": "Nasi uduk",
+              "img" : ""
+            },
+            {
+              "side": "sambel goreng kentang + tahu",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk bawang",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ayam goreng bumbu kecap",
-            "lalapan kol",
-            "buah"
+            {
+              "side": "Ayam goreng bumbu kecap",
+              "img" : ""
+            },
+            {
+              "side": "lalapan kol",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Sayuran bakso sapi bumbu lada hitam",
-            "kerupuk tempe",
-            "buah"
+            {
+              "side": "Sayuran bakso sapi bumbu lada hitam",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk tempe",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -500,18 +1138,42 @@
         "name": "D",
         "menu": {
           "breakfast": [
-            "Pecel tahu kol + tauge",
-            "peyek"
+            {
+              "side": "Pecel tahu kol + tauge",
+              "img" : ""
+            },
+            {
+              "side": "peyek",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Ayam goreng bumbu merah",
-            "lalapan kol",
-            "buah"
+            {
+              "side": "Ayam goreng bumbu merah",
+              "img" : ""
+            },
+            {
+              "side": "lalapan kol",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Kering tempe + kacang",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Kering tempe + kacang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       }
@@ -525,20 +1187,50 @@
         "name": "A",
         "menu": {
           "breakfast": [
-            "Sambal goreng jepan + ebi + telur puyuh",
-            "kerupuk udang",
-            "buah"
+            {
+              "side": "Sambal goreng jepan + ebi + telur puyuh",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Garang asem ayam",
-            "kerupuk",
-            "susu"
+            {
+              "side": "Garang asem ayam",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Cah sayuran bakso",
-            "tempe goreng",
-            "kerupuk",
-            "buah"
+            {
+              "side": "Cah sayuran bakso",
+              "img" : ""
+            },
+            {
+              "side": "tempe goreng",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -546,18 +1238,42 @@
         "name": "B",
         "menu": {
           "breakfast": [
-            "Sambal goreng tempe + ebi + kentang",
-            "kerupuk rambak"
+            {
+              "side": "Sambal goreng tempe + ebi + kentang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Rawon surabaya",
-            "kerupuk udang",
-            "susu"
+            {
+              "side": "Rawon surabaya",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Bakmi kuah ayam rajang",
-            "kerupuk bawang",
-            "buah"
+            {
+              "side": "Bakmi kuah ayam rajang",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk bawang",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -565,18 +1281,42 @@
         "name": "C",
         "menu": {
           "breakfast": [
-            "Cap cay sayur bakso ikan saus tiram",
-            "kerupuk udang"
+            {
+              "side": "Cap cay sayur bakso ikan saus tiram",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Sayur asem",
-            "pindang goreng",
-            "susu"
+            {
+              "side": "Sayur asem",
+              "img" : ""
+            },
+            {
+              "side": "pindang goreng",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Tongseng ayam",
-            "kerupuk rambak",
-            "buah"
+            {
+              "side": "Tongseng ayam",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       },
@@ -584,20 +1324,50 @@
         "name": "D",
         "menu": {
           "breakfast": [
-            "Oseng kentang + bihun",
-            "tahu bakso",
-            "kerupuk rambak"
+            {
+              "side": "Oseng kentang + bihun",
+              "img" : ""
+            },
+            {
+              "side": "tahu bakso",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk rambak",
+              "img" : ""
+            }
           ],
           "lunch": [
-            "Sup ayam sayuran",
-            "kerupuk udang",
-            "susu"
+            {
+              "side": "Sup ayam sayuran",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk udang",
+              "img" : ""
+            },
+            {
+              "side": "susu",
+              "img" : ""
+            }
           ],
           "dinner": [
-            "Galantin goreng",
-            "sambal saus bombay",
-            "kerupuk tempe",
-            "buah"
+            {
+              "side": "Galantin goreng",
+              "img" : ""
+            },
+            {
+              "side": "sambal saus bombay",
+              "img" : ""
+            },
+            {
+              "side": "kerupuk tempe",
+              "img" : ""
+            },
+            {
+              "side": "buah",
+              "img" : ""
+            }
           ]
         }
       }

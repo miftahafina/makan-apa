@@ -28,8 +28,7 @@ export default class App extends React.Component {
         <ImageBackground source={require('./assets/img/bg.png')} style={{width: '100%', height: '100%'}}>
           <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
             <Today day={dayIndonesia[day]}
-            date={month + ' ' + monthIndonesia[month] + ' ' + year}
-            />
+            date={month + ' ' + monthIndonesia[month] + ' ' + year}/>
             
             <SideDishScroller meal='Pagi'/>
             <SideDishScroller meal='Siang'/>
