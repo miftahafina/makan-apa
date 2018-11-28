@@ -1,8 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, AppRegistry, ScrollView, StatusBar } from 'react-native';
 import schedule from './databases/schedule.json';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
+import MenuType from './components/MenuType';
 
 export default class App extends React.Component {
   state = {
@@ -16,12 +17,17 @@ export default class App extends React.Component {
 
     return (
       <View style={container}>
-        <Today />
+        <StatusBar
+          backgroundColor="blue"
+          barStyle="light-content"
+        />
         <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
+          <Today />
           <SideDishScroller />
           <SideDishScroller />
           <SideDishScroller />
         </ScrollView>
+        <MenuType />
       </View>
     );
   }
@@ -29,18 +35,17 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex           : 1,
     backgroundColor: '#fff',
-    alignItems: 'flex-start',
-    flexDirection: 'column',
-    justifyContent: 'flex-start',
-    marginTop: 30,
-    marginLeft: 15,
-    marginRight: -2
+    alignItems     : 'flex-start',
+    flexDirection  : 'column',
+    justifyContent : 'flex-start',
+    // marginTop      : 30,
+    marginRight    : -2
   },
 
   verticalScroll: {
-    // paddingHorizontal: 20
+    marginBottom: 50
   }
 });
 

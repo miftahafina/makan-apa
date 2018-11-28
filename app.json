@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "MakanApa",
-    "description": "This project is really great.",
-    "slug": "MakanApa",
+    "description": "Makan apa di math'am hari ini?",
+    "slug": "makan-apa",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": ["ios", "android"],
@@ -22,6 +22,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.example.myapp"
     }
   }
 }

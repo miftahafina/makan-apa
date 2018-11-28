@@ -31,12 +31,13 @@ const styles = StyleSheet.create({
   container: {
     flex                  : 1,
     backgroundColor       : '#fff',
-    borderColor           : 'grey',
+    borderColor           : '#e5e5e5',
     borderWidth           : 1,
     alignItems            : 'flex-start',
     flexDirection         : 'column',
     justifyContent        : 'flex-start',
     marginBottom          : 20,
+    marginLeft            : 15,
     paddingTop            : 5,
     paddingRight          : 10,
     paddingBottom         : 10,
@@ -46,6 +47,6 @@ const styles = StyleSheet.create({
   },
 
   scrollHorizontalContainer: {
-    // paddingHorizontal: 20
+    // marginBottom: 20
   }
 });
