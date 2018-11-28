@@ -18,9 +18,6 @@ export default class App extends React.Component {
           <SideDishBox />
           <SideDishBox />
           <SideDishBox />
-          <SideDishBox />
-          <SideDishBox />
-          <SideDishBox />
         </ScrollView>
       </View>
     );
@@ -32,6 +29,7 @@ const styles = StyleSheet.create({
     flex                  : 1,
     backgroundColor       : '#fff',
     borderColor           : '#e5e5e5',
+    width                 : 500,
     borderWidth           : 1,
     alignItems            : 'flex-start',
     flexDirection         : 'column',

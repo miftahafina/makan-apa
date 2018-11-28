@@ -36,12 +36,10 @@ const styles = StyleSheet.create({
     alignItems     : 'flex-start',
     flexDirection  : 'column',
     justifyContent : 'flex-start',
-    // marginTop      : 30,
-    marginRight    : -2
   },
 
   verticalScroll: {
-    marginBottom: 50
+    marginBottom: 57
   },
 
   button: {
