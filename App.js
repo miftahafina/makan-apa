@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, AppRegistry, ScrollView, StatusBar } from 'react-native';
+import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
 import schedule from './databases/schedule.json';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
@@ -13,14 +13,10 @@ export default class App extends React.Component {
 
   render() {
     const { today, schedule } = this.state;
-    const { container, verticalScroll } = styles;
+    const { container, verticalScroll, button } = styles;
 
     return (
       <View style={container}>
-        <StatusBar
-          backgroundColor="blue"
-          barStyle="light-content"
-        />
         <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
           <Today />
           <SideDishScroller />
@@ -46,6 +42,12 @@ const styles = StyleSheet.create({
 
   verticalScroll: {
     marginBottom: 50
+  },
+
+  button: {
+    width: 100,
+    height: 100,
+    backgroundColor: 'green'
   }
 });
 
