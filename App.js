@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
 import schedule from './databases/schedule.json';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
-import MenuType from './components/MenuType';
+import NavType from './components/NavType';
 
 export default class App extends React.Component {
   state = {
@@ -23,7 +23,7 @@ export default class App extends React.Component {
           <SideDishScroller />
           <SideDishScroller />
         </ScrollView>
-        <MenuType />
+        <NavType />
       </View>
     );
   }
@@ -32,7 +32,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex           : 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#efefef',
     alignItems     : 'flex-start',
     flexDirection  : 'column',
     justifyContent : 'flex-start',

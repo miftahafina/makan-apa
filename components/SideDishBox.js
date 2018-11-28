@@ -8,7 +8,7 @@ export default class SideDishBox extends React.Component {
     return (
       <View style={container}>
         <View style={box}></View>
-        <Text style={text}>Bakso daging nama lauk yang panjang</Text>
+        <Text style={text}>Nama lauk yang disajikan</Text>
       </View>
     );
   }
