@@ -19,11 +19,11 @@ export default class App extends React.Component {
     return (
       <View style={container}>
         <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
-          <Today />
+          <Today day='Rabu' date='28 Oktober 2018'/>
           
-          <SideDishScroller meal="Pagi"/>
-          <SideDishScroller meal="Siang"/>
-          <SideDishScroller meal="Malam"/>
+          <SideDishScroller meal='Pagi'/>
+          <SideDishScroller meal='Siang'/>
+          <SideDishScroller meal='Malam'/>
 
           <CreditFooter />
         </ScrollView>

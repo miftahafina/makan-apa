@@ -8,10 +8,10 @@ export default class TypeNav extends React.Component {
     
     return (
       <View style={container}>
-        <TypeButton type="A"/>
-        <TypeButton type="B"/>
-        <TypeButton type="C"/>
-        <TypeButton type="D"/>
+        <TypeButton type='A'/>
+        <TypeButton type='B'/>
+        <TypeButton type='C'/>
+        <TypeButton type='D'/>
       </View>
     )
   }
