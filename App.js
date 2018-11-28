@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
 import schedule from './databases/schedule.json';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
-import NavType from './components/NavType';
+import TypeNav from './components/TypeNav';
 
 export default class App extends React.Component {
   state = {
@@ -19,11 +19,12 @@ export default class App extends React.Component {
       <View style={container}>
         <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
           <Today />
+          
           <SideDishScroller />
           <SideDishScroller />
           <SideDishScroller />
         </ScrollView>
-        <NavType />
+        <TypeNav />
       </View>
     );
   }
