@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, AppRegistry } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default class SideDishBox extends React.Component {
   render() {
@@ -7,7 +7,7 @@ export default class SideDishBox extends React.Component {
 
     return (
       <View style={container}>
-        <View style={box}></View>
+        <Image source={require('../assets/img/oseng-tahu-kacang-panjang.jpg')} style={box}></Image>
         <Text style={text}>Nama lauk yang disajikan</Text>
       </View>
     );
