@@ -7,7 +7,9 @@ export default class TypeButton extends React.Component {
     
     return (
       <TouchableOpacity style={button}>
-        <Text style={text}>B</Text>
+        <Text style={text}>
+          {this.props.type}
+        </Text>
         <Text style={smallText}>Tipe</Text>
       </TouchableOpacity>
     )
