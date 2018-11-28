@@ -7,7 +7,9 @@ export default class MealsTitle extends React.Component {
 
     return (
       <View style={container}>
-        <Text style={text}>Sarapan</Text>
+        <Text style={text}>
+          {this.props.meal}
+        </Text>
       </View>
     );
   }

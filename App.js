@@ -21,9 +21,9 @@ export default class App extends React.Component {
         <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
           <Today />
           
-          <SideDishScroller />
-          <SideDishScroller />
-          <SideDishScroller />
+          <SideDishScroller meal="Pagi"/>
+          <SideDishScroller meal="Siang"/>
+          <SideDishScroller meal="Malam"/>
 
           <CreditFooter />
         </ScrollView>

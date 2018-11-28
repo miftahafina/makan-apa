@@ -9,7 +9,7 @@ export default class App extends React.Component {
 
     return (
       <View style={container}>
-        <MealsTitle />
+        <MealsTitle meal={this.props.meal}/>
         <ScrollView
           horizontal={true}
           style={scrollHorizontalContainer}
