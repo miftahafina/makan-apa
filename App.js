@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
+import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground } from 'react-native';
 import schedule from './databases/schedule.json';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
@@ -8,26 +8,37 @@ import CreditFooter from './components/CreditFooter';
 
 export default class App extends React.Component {
   state = {
-    today   : new Date().getDay(),
+    dayIndonesia: ['Ahad', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum\'at', 'Sabtu'],
+    monthIndonesia: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
+
+    day     : new Date().getDay(),
+    date    : new Date().getDate(),
+    month   : new Date().getMonth(),
+    year    : new Date().getFullYear(),
+    
     schedule: schedule
   }
 
   render() {
-    const { today, schedule } = this.state;
-    const { container, verticalScroll, button } = styles;
+    const { day, date, month, year, schedule, dayIndonesia, monthIndonesia, } = this.state;
+    const { container, verticalScroll } = styles;
 
     return (
       <View style={container}>
-        <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
-          <Today day='Rabu' date='28 Oktober 2018'/>
-          
-          <SideDishScroller meal='Pagi'/>
-          <SideDishScroller meal='Siang'/>
-          <SideDishScroller meal='Malam'/>
+        <ImageBackground source={require('./assets/img/bg.png')} style={{width: '100%', height: '100%'}}>
+          <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
+            <Today day={dayIndonesia[day]}
+            date={month + ' ' + monthIndonesia[month] + ' ' + year}
+            />
+            
+            <SideDishScroller meal='Pagi'/>
+            <SideDishScroller meal='Siang'/>
+            <SideDishScroller meal='Malam'/>
 
-          <CreditFooter />
-        </ScrollView>
-        <TypeNav />
+            <CreditFooter />
+          </ScrollView>
+          <TypeNav />
+        </ImageBackground>
       </View>
     );
   }
@@ -44,12 +55,6 @@ const styles = StyleSheet.create({
 
   verticalScroll: {
     marginBottom: 57
-  },
-
-  button: {
-    width: 100,
-    height: 100,
-    backgroundColor: 'green'
   }
 });
 

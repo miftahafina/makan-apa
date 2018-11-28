@@ -28,10 +28,12 @@ const styles = StyleSheet.create({
   day: {
     fontSize  : 40,
     fontWeight: 'bold',
+    color     : '#fff'
   },
 
   date: {
     fontSize    : 15,
-    marginBottom: 30
+    marginBottom: 30,
+    color       : '#fff'
   }
 })

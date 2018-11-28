@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
   text: {
     color        : 'gray',
     fontSize     : 10,
-    paddingBottom: 20
+    paddingBottom: 20,
+    color        : '#fff'
   }
 
 })
