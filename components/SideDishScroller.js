@@ -18,6 +18,9 @@ export default class App extends React.Component {
           <SideDishBox />
           <SideDishBox />
           <SideDishBox />
+          <SideDishBox />
+          <SideDishBox />
+          <SideDishBox />
         </ScrollView>
       </View>
     );
@@ -26,22 +29,21 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex                  : 1,
-    backgroundColor       : '#fff',
-    borderColor           : '#e5e5e5',
-    width                 : 500,
-    borderWidth           : 1,
-    alignItems            : 'flex-start',
-    flexDirection         : 'column',
-    justifyContent        : 'flex-start',
-    marginBottom          : 20,
-    marginLeft            : 15,
-    paddingTop            : 5,
-    paddingRight          : 10,
-    paddingBottom         : 10,
-    paddingLeft           : 10,
-    borderTopLeftRadius   : 20,
-    borderBottomLeftRadius: 20
+    flex           : 1,
+    backgroundColor: '#fff',
+    borderColor    : '#e5e5e5',
+    borderWidth    : 1,
+    alignItems     : 'flex-start',
+    flexDirection  : 'column',
+    justifyContent : 'flex-start',
+    marginBottom   : 20,
+    marginLeft     : 15,
+    marginRight    : 15,
+    paddingTop     : 5,
+    paddingRight   : 10,
+    paddingBottom  : 10,
+    paddingLeft    : 10,
+    borderRadius   : 20,
   },
 
   scrollHorizontalContainer: {

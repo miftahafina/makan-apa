@@ -4,6 +4,7 @@ import schedule from './databases/schedule.json';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
 import TypeNav from './components/TypeNav';
+import CreditFooter from './components/CreditFooter';
 
 export default class App extends React.Component {
   state = {
@@ -23,6 +24,8 @@ export default class App extends React.Component {
           <SideDishScroller />
           <SideDishScroller />
           <SideDishScroller />
+
+          <CreditFooter />
         </ScrollView>
         <TypeNav />
       </View>
@@ -34,9 +37,9 @@ const styles = StyleSheet.create({
   container: {
     flex           : 1,
     backgroundColor: '#efefef',
-    alignItems     : 'flex-start',
-    flexDirection  : 'column',
     justifyContent : 'flex-start',
+    alignItems     : 'stretch',
+    flexDirection  : 'column',
   },
 
   verticalScroll: {
