@@ -7,17 +7,17 @@ export default class Today extends React.Component {
     
     return (
       <View style={container}>
-        <Text style={day}>
-          {this.props.day}
-        </Text>
-        
-        <Text style={date}>
-          {this.props.date}
-        </Text>
-
-        <Text style={week}>
-          Pekan ke-{this.props.week} Menu {this.props.typeId}
-        </Text>
+        <View>
+          <Text style={day}>
+            {this.props.day}
+          </Text>
+          <Text style={date}>
+            {this.props.date}
+          </Text>
+          <Text style={week}>
+            Pekan ke-{this.props.week} Menu {this.props.typeId}
+          </Text>
+        </View>
       </View>
     )
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground, TouchableOpacity, Share } from 'react-native';
 import schedule from './databases/schedule.js';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
@@ -39,6 +39,20 @@ export default class App extends React.Component {
     })
   }
 
+  share = () => {
+    const {dayId, moment, monthId} = this.state;
+
+    Share.share({
+      title  : 'Prediksi Lauk',
+      message: `Prediksi lauk hari ${dayId[moment.day()]}, ${moment.date()} ${monthId[moment.month()]} ${moment.year()} adalah: 
+Pagi: 
+Siang: 
+Malam: `
+    }, {
+      dialogTitle: `Bagikan prediksi lauk hari ${dayId[moment.day()]}`
+    })
+  }
+
   render() {
     const { moment, day, date, month, year, week, schedule, dayId, monthId, menu_a, menu_b, menu_c, menu_d, } = this.state;
     const { container, verticalScroll } = styles;
@@ -67,6 +81,7 @@ export default class App extends React.Component {
       <View style={container}>
         <ImageBackground source={require('./assets/img/bg.png')} style={{width: '100%', height: '100%'}}>
           <TouchableOpacity onPress={this.toDay}>
+          {/* <TouchableOpacity onPress={() => {Share.share({message: 'mesa', title: 'title'})}}> */}
             <Today day={dayId[moment.day()]}
               date={moment.date() + ' ' + monthId[moment.month()] + ' ' + moment.year()}
               week={moment.week()} typeId={typeId}
@@ -79,7 +94,7 @@ export default class App extends React.Component {
             <SideDishScroller meal='dinner' mealId='Malam' day={moment.day()} type={type}/>
             <CreditFooter />
           </ScrollView>
-          <DateNav prevDay={this.prevDay} nextDay={this.nextDay} toDay={this.toDay}/>
+          <DateNav prevDay={this.prevDay} nextDay={this.nextDay} toDay={this.toDay} share={this.share}/>
         </ImageBackground>
       </View>
     );
@@ -89,10 +104,10 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex           : 1,
+    flexDirection  : 'column',
     backgroundColor: '#efefef',
     justifyContent : 'flex-start',
     alignItems     : 'stretch',
-    flexDirection  : 'column',
   },
 
   verticalScroll: {

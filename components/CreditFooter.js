@@ -7,7 +7,10 @@ export default class CreditFooter extends React.Component {
     
     return (
       <View style={container}>
-        <Text style={smallText}>Foto yang tercantum hanya sebagai ilustrasi</Text>
+        <Text style={smallText}>
+          Foto yang tercantum hanya sebagai ilustrasi{'\n'}
+          Mohon maaf jika terdapat prediksi yang keliru
+        </Text>
         <Text style={text}>Made with 💖 ️By Miftah Afina</Text>
       </View>
     )
@@ -25,13 +28,15 @@ const styles = StyleSheet.create({
   text: {
     fontSize     : 10,
     paddingBottom: 30,
-    color        : '#fff'
+    color        : '#fff',
+    textAlign: 'center'
   },
 
   smallText: {
     fontSize     : 8,
-    paddingBottom: 5,
-    color        : '#fff'
+    paddingBottom: 8,
+    color        : '#fff',
+    textAlign: 'center'
   }
 
 })

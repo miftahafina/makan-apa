@@ -11,11 +11,12 @@ export default class DateNav extends React.Component {
         <DateButton action={this.props.prevDay} img={require('../assets/img/navs/prev.png')}>
           Kemarin
         </DateButton>
-
         <DateButton action={this.props.toDay} img={require('../assets/img/navs/today.png')}>
           Hari ini
         </DateButton>
-        
+        <DateButton action={this.props.share} img={require('../assets/img/navs/share.png')}>
+          Bagikan
+        </DateButton>
         <DateButton action={this.props.nextDay} img={require('../assets/img/navs/next.png')}>
           Besok
         </DateButton>
