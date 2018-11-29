@@ -7,7 +7,7 @@ export default class SideDishBox extends React.Component {
 
     return (
       <View style={container}>
-        <Image source={require('../assets/img/oseng-tahu-kacang-panjang.jpg')} style={box}></Image>
+        <Image source={this.props.img} style={box}></Image>
         <Text style={text}>
           {this.props.children}
         </Text>
@@ -18,8 +18,8 @@ export default class SideDishBox extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    width          : 120,
-    backgroundColor: '#fff',
+    width          : 115,
+    backgroundColor: '#fff'
   },
   
   box: {

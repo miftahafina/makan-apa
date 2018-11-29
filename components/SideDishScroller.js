@@ -15,13 +15,21 @@ export default class App extends React.Component {
 
     return (
       <View style={container}>
-        <MealsTitle meal={this.props.meal}/>
+        <MealsTitle meal={this.props.mealId}/>
         <ScrollView
           horizontal={true}
           style={scrollHorizontalContainer}
           showsHorizontalScrollIndicator={false}
         >
-          <SideDishBox>{JSON.stringify(schedule[0].type[0].menu.lunch[2].side)}</SideDishBox>
+          {
+            schedule[this.props.day].type[0].menu[this.props.meal].map((item, key) => {
+              return (
+                <SideDishBox img={item.img} key={key}>
+                  {item.side}
+                </SideDishBox>
+              )
+            })
+          }
         </ScrollView>
       </View>
     );
