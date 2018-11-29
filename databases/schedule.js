@@ -44,8 +44,8 @@ export default [
               img : require('../assets/img/foods/bandeng-goreng.jpg')
             },
             {
-              side: 'sambel tomat',
-              img : require('../assets/img/foods/sambel-tomat.jpg')
+              side: 'sambal tomat',
+              img : require('../assets/img/foods/sambal-tomat.jpg')
             },
             {
               side: 'kerupuk rambak',
@@ -193,8 +193,8 @@ export default [
               img : require('../assets/img/foods/kerupuk-bawang.jpg')
             },
             {
-              side: 'sambel tomat',
-              img : require('../assets/img/foods/sambel-tomat.jpg')
+              side: 'sambal tomat',
+              img : require('../assets/img/foods/sambal-tomat.jpg')
             },
             {
               side: 'buah',
@@ -671,8 +671,8 @@ export default [
               img : require('../assets/img/foods/lalapan-timun.jpg')
             },
             {
-              side: 'sambel ijo',
-              img : require('../assets/img/foods/sambel-ijo.jpg')
+              side: 'sambal ijo',
+              img : require('../assets/img/foods/sambal-ijo.jpg')
             },
             {
               side: 'bubur kacang hijau',
@@ -1088,8 +1088,8 @@ export default [
               img : require('../assets/img/foods/nasi-uduk.jpg')
             },
             {
-              side: 'sambel goreng kentang + tahu',
-              img : require('../assets/img/foods/sambel-goreng-kentang-tahu.jpg')
+              side: 'sambal goreng kentang + tahu',
+              img : require('../assets/img/foods/sambal-goreng-kentang-tahu.jpg')
             },
             {
               side: 'kerupuk bawang',
