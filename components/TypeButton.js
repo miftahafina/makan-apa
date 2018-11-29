@@ -10,7 +10,6 @@ export default class TypeButton extends React.Component {
         <Text style={text}>
           {this.props.type}
         </Text>
-        <Text style={smallText}>Tipe</Text>
       </TouchableOpacity>
     )
   }
@@ -21,7 +20,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection  : 'column',
     justifyContent : 'flex-start',
-    height         : 115,
+    height         : 85,
     backgroundColor: '#fff',
     borderTopWidth : 1,
     borderColor    : '#e5e5e5'
@@ -33,10 +32,5 @@ const styles = StyleSheet.create({
     fontSize  : 20,
     color     : 'black',
     textAlign : 'center',
-  },
-
-  smallText: {
-    fontSize : 10,
-    textAlign: 'center'
   }
 })
