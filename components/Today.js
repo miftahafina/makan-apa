@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default class Today extends React.Component {
   render() {
-    const {container, day, date} = styles;
+    const {container, day, date, week} = styles;
     
     return (
       <View style={container}>
@@ -13,6 +13,10 @@ export default class Today extends React.Component {
         
         <Text style={date}>
           {this.props.date}
+        </Text>
+
+        <Text style={week}>
+          Pekan ke-{this.props.week} Menu {this.props.typeId}
         </Text>
       </View>
     )
@@ -33,7 +37,14 @@ const styles = StyleSheet.create({
 
   date: {
     fontSize    : 15,
-    marginBottom: 30,
+    marginBottom: 5,
     color       : '#fff'
+  },
+  
+  week: {
+    fontSize    : 12,
+    marginBottom: 30,
+    color       : '#fff',
+    opacity: 0.5
   }
 })

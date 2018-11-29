@@ -22,7 +22,7 @@ export default class App extends React.Component {
           showsHorizontalScrollIndicator={false}
         >
           {
-            schedule[this.props.day].type[0].menu[this.props.meal].map((item, key) => {
+            schedule[this.props.day].type[this.props.type].menu[this.props.meal].map((item, key) => {
               return (
                 <SideDishBox img={item.img} key={key}>
                   {item.side}
