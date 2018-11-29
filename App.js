@@ -13,8 +13,8 @@ export default class App extends React.Component {
   }
 
   state = {
-    dayIndonesia  : ['Ahad', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum\'at', 'Sabtu'],
-    monthIndonesia: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
+    dayId  : ['Ahad', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum\'at', 'Sabtu'],
+    monthId: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
 
     day  : new Date().getDay(),
     date : new Date().getDate(),
@@ -30,7 +30,7 @@ export default class App extends React.Component {
   }
 
   render() {
-    const { day, date, month, year, week, schedule, dayIndonesia, monthIndonesia, menu_a, menu_b, menu_c, menu_d, } = this.state;
+    const { day, date, month, year, week, schedule, dayId, monthId, menu_a, menu_b, menu_c, menu_d, } = this.state;
     const { container, verticalScroll } = styles;
 
     let type = 0;
@@ -53,13 +53,12 @@ export default class App extends React.Component {
       typeId = 'D';
     }
 
-
     return (
       <View style={container}>
         <ImageBackground source={require('./assets/img/bg.png')} style={{width: '100%', height: '100%'}}>
           <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
-            <Today day={dayIndonesia[day]}
-            date={date + ' ' + monthIndonesia[month] + ' ' + year}
+            <Today day={dayId[day]}
+            date={date + ' ' + monthId[month] + ' ' + year}
             week={week} typeId={typeId}/>
             
             <SideDishScroller meal='breakfast' mealId='Pagi' day={day} type={type}/>
