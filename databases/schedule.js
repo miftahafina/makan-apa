@@ -8,51 +8,51 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Oseng tahu kacang panjang',
+              side: 'Oseng Tahu Kacang Panjang',
               img : require('../assets/img/foods/oseng-tahu-kacang-panjang.jpg')
             },
             {
-              side: 'Pepes ikan',
+              side: 'Pepes Ikan',
               img : require('../assets/img/foods/pepes-ikan.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Gado-gado',
+              side: 'Gado-Gado',
               img : require('../assets/img/foods/gado-gado.jpg')
             },
             {
-              side: 'telur rebus',
+              side: 'Telur Rebus',
               img : require('../assets/img/foods/telur-rebus.jpg')
             },
             {
-              side: 'peyek',
+              side: 'Peyek',
               img : require('../assets/img/foods/peyek.jpg')
             },
             {
-              side: 'bubur kacang hijau',
+              side: 'Bubur Kacang Hijau',
               img : require('../assets/img/foods/bubur-kacang-hijau.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Bandeng goreng',
+              side: 'Bandeng Goreng',
               img : require('../assets/img/foods/bandeng-goreng.jpg')
             },
             {
-              side: 'sambal tomat',
+              side: 'Sambal Tomat',
               img : require('../assets/img/foods/sambal-tomat.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -63,43 +63,43 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Opor telur',
+              side: 'Opor Telur',
               img : require('../assets/img/foods/opor-telur.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Soto daging sapi',
+              side: 'Soto Daging Sapi',
               img : require('../assets/img/foods/soto-daging-sapi.jpg')
             },
             {
-              side: 'karak',
+              side: 'Karak',
               img : require('../assets/img/foods/karak.jpg')
             },
             {
-              side: 'bubur kacang hijau',
+              side: 'Bubur Kacang Hijau',
               img : require('../assets/img/foods/bubur-kacang-hijau.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Gado-gado',
+              side: 'Gado-Gado',
               img : require('../assets/img/foods/gado-gado.jpg')
             },
             {
-              side: 'telur rebus',
+              side: 'Telur Rebus',
               img : require('../assets/img/foods/telur-rebus.jpg')
             },
             {
-              side: 'peyek',
+              side: 'Peyek',
               img : require('../assets/img/foods/peyek.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -110,39 +110,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Bandeng bumbu sarden',
+              side: 'Bandeng Bumbu Sarden',
               img : require('../assets/img/foods/bandeng-bumbu-sarden.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Soto ayam lamongan',
+              side: 'Soto Ayam Lamongan',
               img : require('../assets/img/foods/soto-ayam-lamongan.jpg')
             },
             {
-              side: 'tempe goreng',
+              side: 'Tempe Goreng',
               img : require('../assets/img/foods/tempe-goreng.jpg')
             },
             {
-              side: 'bubur kacang hijau',
+              side: 'Bubur Kacang Hijau',
               img : require('../assets/img/foods/bubur-kacang-hijau.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Bakso kuah tahu',
+              side: 'Bakso Kuah Tahu',
               img : require('../assets/img/foods/bakso-kuah-tahu.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -153,51 +153,51 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Soto ayam',
+              side: 'Soto Ayam',
               img : require('../assets/img/foods/soto-ayam.jpg')
             },
             {
-              side: 'tempe goreng',
+              side: 'Tempe Goreng',
               img : require('../assets/img/foods/tempe-goreng.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Bakso daging sapi komplit',
+              side: 'Bakso Daging Sapi Komplit',
               img : require('../assets/img/foods/bakso-daging-sapi-komplit.jpg')
             },
             {
-              side: 'pangsit',
+              side: 'Pangsit',
               img : require('../assets/img/foods/pangsit.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Nasi kuning',
+              side: 'Nasi Kuning',
               img : require('../assets/img/foods/nasi-kuning.jpg')
             },
             {
-              side: 'nugget kakap',
+              side: 'Nugget Kakap',
               img : require('../assets/img/foods/nugget-kakap.jpg')
             },
             {
-              side: 'kerupuk bawang',
+              side: 'Kerupuk Bawang',
               img : require('../assets/img/foods/kerupuk-bawang.jpg')
             },
             {
-              side: 'sambal tomat',
+              side: 'Sambal Tomat',
               img : require('../assets/img/foods/sambal-tomat.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -214,47 +214,47 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Sup sayuran ayam rajang',
+              side: 'Sup Sayuran Ayam Rajang',
               img : require('../assets/img/foods/sup-sayuran-ayam-rajang.jpg')
             },
             {
-              side: 'tahu goreng',
+              side: 'Tahu Goreng',
               img : require('../assets/img/foods/tahu-goreng.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ikan patin goreng kuah santan',
+              side: 'Ikan Patin Goreng Kuah Santan',
               img : require('../assets/img/foods/ikan-patin-goreng-kuah-santan.jpg')
             },
             {
-              side: 'kemangi',
+              side: 'Kemangi',
               img : require('../assets/img/foods/kemangi.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Ayam bumbu balado',
+              side: 'Ayam Bumbu Balado',
               img : require('../assets/img/foods/ayam-bumbu-balado.jpg')
             },
             {
-              side: 'lalapan kol',
+              side: 'Lalapan Kol',
               img : require('../assets/img/foods/lalapan-kol.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -265,55 +265,55 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Daging tahu pong bumbu rendang',
+              side: 'Daging Tahu Pong Bumbu Rendang',
               img : require('../assets/img/foods/daging-tahu-pong-bumbu-rendang.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Sayur bayam',
+              side: 'Sayur Bayam',
               img : require('../assets/img/foods/sayur-bayam.jpg')
             },
             {
-              side: 'galantin',
+              side: 'Galantin',
               img : require('../assets/img/foods/galantin.jpg')
             },
             {
-              side: 'sambal terasi',
+              side: 'Sambal Terasi',
               img : require('../assets/img/foods/sambal-terasi.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Ayam rica-rica',
+              side: 'Ayam Rica-Rica',
               img : require('../assets/img/foods/ayam-rica-rica.jpg')
             },
             {
-              side: 'lalapan kol',
+              side: 'Lalapan Kol',
               img : require('../assets/img/foods/lalapan-kol.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -324,43 +324,43 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Opor ayam',
+              side: 'Opor Ayam',
               img : require('../assets/img/foods/opor-ayam.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Sayur lodeh',
+              side: 'Sayur Lodeh',
               img : require('../assets/img/foods/sayur-lodeh.jpg')
             },
             {
-              side: 'galantin kakap',
+              side: 'Galantin Kakap',
               img : require('../assets/img/foods/galantin-kakap.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Ikan patin goreng bumbu kuning',
+              side: 'Ikan Patin Goreng Bumbu Kuning',
               img : require('../assets/img/foods/ikan-patin-goreng-bumbu-kuning.jpg')
             },
             {
-              side: 'lalapan timun',
+              side: 'Lalapan Timun',
               img : require('../assets/img/foods/lalapan-timun.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -371,47 +371,47 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Sambal balado terong ungu',
+              side: 'Sambal Balado Terong Ungu',
               img : require('../assets/img/foods/sambal-balado-terong-ungu.jpg')
             },
             {
-              side: 'pindang goreng',
+              side: 'Pindang Goreng',
               img : require('../assets/img/foods/pindang-goreng.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Bandeng presto goreng',
+              side: 'Bandeng Presto Goreng',
               img : require('../assets/img/foods/bandeng-presto-goreng.jpg')
             },
             {
-              side: 'bumbu bali',
+              side: 'Bumbu Bali',
               img : require('../assets/img/foods/bumbu-bali.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Ayam pedas',
+              side: 'Ayam Pedas',
               img : require('../assets/img/foods/ayam-pedas.jpg')
             },
             {
-              side: 'lalapan timun',
+              side: 'Lalapan Timun',
               img : require('../assets/img/foods/lalapan-timun.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -428,39 +428,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Galantin kakap bumbu rujak',
+              side: 'Galantin Kakap Bumbu Rujak',
               img : require('../assets/img/foods/galantin-kakap-bumbu-rujak.jpg')
             },
             {
-              side: 'kerupuk tempe',
+              side: 'Kerupuk Tempe',
               img : require('../assets/img/foods/kerupuk-tempe.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Sayur asem',
+              side: 'Sayur Asem',
               img : require('../assets/img/foods/sayur-asem.jpg')
             },
             {
-              side: 'pindang goreng',
+              side: 'Pindang Goreng',
               img : require('../assets/img/foods/pindang-goreng.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Mie goreng sayuran',
+              side: 'Mie Goreng Sayuran',
               img : require('../assets/img/foods/mie-goreng-sayuran.jpg')
             },
             {
-              side: 'telur rebus',
+              side: 'Telur Rebus',
               img : require('../assets/img/foods/telur-rebus.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -471,39 +471,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Tahu terik kuning',
+              side: 'Tahu Terik Kuning',
               img : require('../assets/img/foods/tahu-terik-kuning.jpg')
             },
             {
-              side: 'telur asin',
+              side: 'Telur Asin',
               img : require('../assets/img/foods/telur-asin.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Bakso daging sapi komplit',
+              side: 'Bakso Daging Sapi Komplit',
               img : require('../assets/img/foods/bakso-daging-sapi-komplit.jpg')
             },
             {
-              side: 'pangsit',
+              side: 'Pangsit',
               img : require('../assets/img/foods/pangsit.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Nugget kakap',
+              side: 'Nugget Kakap',
               img : require('../assets/img/foods/nugget-kakap.jpg')
             },
             {
-              side: 'sambal kerupuk',
+              side: 'Sambal Kerupuk',
               img : require('../assets/img/foods/sambal-kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -514,39 +514,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Tumis buncis + ebi bumbu kuning',
+              side: 'Tumis Buncis + Ebi Bumbu Kuning',
               img : require('../assets/img/foods/tumis-buncis-ebi-bumbu-kuning.jpg')
             },
             {
-              side: 'tahu bakso ikan',
+              side: 'Tahu Bakso Ikan',
               img : require('../assets/img/foods/tahu-bakso-ikan.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Gulai daging sapi',
+              side: 'Gulai Daging Sapi',
               img : require('../assets/img/foods/gulai-daging-sapi.jpg')
             },
             {
-              side: 'karak',
+              side: 'Karak',
               img : require('../assets/img/foods/karak.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Balado tempe + ebi',
+              side: 'Balado Tempe + Ebi',
               img : require('../assets/img/foods/balado-tempe-ebi.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -557,43 +557,43 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Oseng tahu + kacang panjang',
+              side: 'Oseng Tahu + Kacang Panjang',
               img : require('../assets/img/foods/oseng-tahu-kacang-panjang.jpg')
             },
             {
-              side: 'pepes ikan',
+              side: 'Pepes Ikan',
               img : require('../assets/img/foods/pepes-ikan.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Soto daging sapi',
+              side: 'Soto Daging Sapi',
               img : require('../assets/img/foods/soto-daging-sapi.jpg')
             },
             {
-              side: 'karak',
+              side: 'Karak',
               img : require('../assets/img/foods/karak.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Sambal goreng janten + tahu + ebi',
+              side: 'Sambal Goreng Janten + Tahu + Ebi',
               img : require('../assets/img/foods/sambal-goreng-janten-tahu-ebi.jpg')
             },
             {
-              side: 'telur asin',
+              side: 'Telur Asin',
               img : require('../assets/img/foods/telur-asin.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -610,39 +610,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Sayuran bakso sapi bumbu lada hitam',
+              side: 'Sayuran Bakso Sapi Bumbu Lada Hitam',
               img : require('../assets/img/foods/sayuran-bakso-sapi-bumbu-lada-hitam.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Soto daging sapi',
+              side: 'Soto Daging Sapi',
               img : require('../assets/img/foods/soto-daging-sapi.jpg')
             },
             {
-              side: 'karak',
+              side: 'Karak',
               img : require('../assets/img/foods/karak.jpg')
             },
             {
-              side: 'bubur kacang hijau',
+              side: 'Bubur Kacang Hijau',
               img : require('../assets/img/foods/bubur-kacang-hijau.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Sambal goreng kering tahu + kentang',
+              side: 'Sambal Goreng Kering Tahu + Kentang',
               img : require('../assets/img/foods/sambal-goreng-kering-tahu-kentang.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -653,43 +653,43 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Tumis bakso ikan sayur pedas manis',
+              side: 'Tumis Bakso Ikan Sayur Pedas Manis',
               img : require('../assets/img/foods/tumis-bakso-ikan-sayur-pedas-manis.jpg')
             },
             {
-              side: 'kerupuk tempe',
+              side: 'Kerupuk Tempe',
               img : require('../assets/img/foods/kerupuk-tempe.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ayam bacem',
+              side: 'Ayam Bacem',
               img : require('../assets/img/foods/ayam-bacem.jpg')
             },
             {
-              side: 'lalapan timun',
+              side: 'Lalapan Timun',
               img : require('../assets/img/foods/lalapan-timun.jpg')
             },
             {
-              side: 'sambal ijo',
+              side: 'Sambal Ijo',
               img : require('../assets/img/foods/sambal-ijo.jpg')
             },
             {
-              side: 'bubur kacang hijau',
+              side: 'Bubur Kacang Hijau',
               img : require('../assets/img/foods/bubur-kacang-hijau.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Sup sayuran bakso sapi',
+              side: 'Sup Sayuran Bakso Sapi',
               img : require('../assets/img/foods/sup-sayuran-bakso-sapi.jpg')
             },
             {
-              side: 'tahu goreng',
+              side: 'Tahu Goreng',
               img : require('../assets/img/foods/tahu-goreng.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -700,35 +700,35 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Mie goreng bakso',
+              side: 'Mie Goreng Bakso',
               img : require('../assets/img/foods/mie-goreng-bakso.jpg')
             },
             {
-              side: 'telur rebus',
+              side: 'Telur Rebus',
               img : require('../assets/img/foods/telur-rebus.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ayam tepung',
+              side: 'Ayam Tepung',
               img : require('../assets/img/foods/ayam-tepung.jpg')
             },
             {
-              side: 'sambal bajak',
+              side: 'Sambal Bajak',
               img : require('../assets/img/foods/sambal-bajak.jpg')
             },
             {
-              side: 'bubur kacang hijau',
+              side: 'Bubur Kacang Hijau',
               img : require('../assets/img/foods/bubur-kacang-hijau.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Oseng tahu jamur',
+              side: 'Oseng Tahu Jamur',
               img : require('../assets/img/foods/oseng-tahu-jamur.jpg')
             },
             {
-              side: 'telur puyuh',
+              side: 'Telur Puyuh',
               img : require('../assets/img/foods/telur-puyuh.jpg')
             }
           ]
@@ -739,39 +739,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Kare ayam',
+              side: 'Kare Ayam',
               img : require('../assets/img/foods/kare-ayam.jpg')
             },
             {
-              side: 'kerupuk tempe',
+              side: 'Kerupuk Tempe',
               img : require('../assets/img/foods/kerupuk-tempe.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ikan patin goreng bumbu merah',
+              side: 'Ikan Patin Goreng Bumbu Merah',
               img : require('../assets/img/foods/ikan-patin-goreng-bumbu-merah.jpg')
             },
             {
-              side: 'lalapan kol',
+              side: 'Lalapan Kol',
               img : require('../assets/img/foods/lalapan-kol.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Tumis buncis ayam rajang',
+              side: 'Tumis Buncis Ayam Rajang',
               img : require('../assets/img/foods/tumis-buncis-ayam-rajang.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -788,51 +788,51 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Oseng janten + ebi + wortel + ayam',
+              side: 'Oseng Janten + Ebi + Wortel + Ayam',
               img : require('../assets/img/foods/oseng-janten-ebi-wortel-ayam.jpg')
             },
             {
-              side: 'telor rebus',
+              side: 'Telor Rebus',
               img : require('../assets/img/foods/telor-rebus.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Sayur lodeh',
+              side: 'Sayur Lodeh',
               img : require('../assets/img/foods/sayur-lodeh.jpg')
             },
             {
-              side: 'galantin goreng',
+              side: 'Galantin Goreng',
               img : require('../assets/img/foods/galantin-goreng.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Ayam tepung',
+              side: 'Ayam Tepung',
               img : require('../assets/img/foods/ayam-tepung.jpg')
             },
             {
-              side: 'sambal tomat',
+              side: 'Sambal Tomat',
               img : require('../assets/img/foods/sambal-tomat.jpg')
             },
             {
-              side: 'lalapan timun',
+              side: 'Lalapan Timun',
               img : require('../assets/img/foods/lalapan-timun.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -843,47 +843,47 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Oseng tempe kacang panjang',
+              side: 'Oseng Tempe Kacang Panjang',
               img : require('../assets/img/foods/oseng-tempe-kacang-panjang.jpg')
             },
             {
-              side: 'telur rebus',
+              side: 'Telur Rebus',
               img : require('../assets/img/foods/telur-rebus.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ikan patin asam pedas',
+              side: 'Ikan Patin Asam Pedas',
               img : require('../assets/img/foods/ikan-patin-asam-pedas.jpg')
             },
             {
-              side: 'lalapan timun',
+              side: 'Lalapan Timun',
               img : require('../assets/img/foods/lalapan-timun.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Ayam bumbu bali',
+              side: 'Ayam Bumbu Bali',
               img : require('../assets/img/foods/ayam-bumbu-bali.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -894,15 +894,15 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Rendang daging tahu',
+              side: 'Rendang Daging Tahu',
               img : require('../assets/img/foods/rendang-daging-tahu.jpg')
             },
             {
-              side: 'kerupuk tempe',
+              side: 'Kerupuk Tempe',
               img : require('../assets/img/foods/kerupuk-tempe.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
@@ -912,25 +912,25 @@ export default [
               img : require('../assets/img/foods/sup.jpg')
             },
             {
-              side: 'nugget kakap goreng',
+              side: 'Nugget Kakap Goreng',
               img : require('../assets/img/foods/nugget-kakap-goreng.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Rendang ayam',
+              side: 'Rendang Ayam',
               img : require('../assets/img/foods/rendang-ayam.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -941,47 +941,47 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Sup sayuran bakso ikan',
+              side: 'Sup Sayuran Bakso Ikan',
               img : require('../assets/img/foods/sup-sayuran-bakso-ikan.jpg')
             },
             {
-              side: 'tempe bacem',
+              side: 'Tempe Bacem',
               img : require('../assets/img/foods/tempe-bacem.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Asem-asem daging janten',
+              side: 'Asem-Asem Daging Janten',
               img : require('../assets/img/foods/asem-asem-daging-janten.jpg')
             },
             {
-              side: 'tahu goreng',
+              side: 'Tahu Goreng',
               img : require('../assets/img/foods/tahu-goreng.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Ayam bacem',
+              side: 'Ayam Bacem',
               img : require('../assets/img/foods/ayam-bacem.jpg')
             },
             {
-              side: 'lalapan kol + kemangi',
+              side: 'Lalapan Kol + Kemangi',
               img : require('../assets/img/foods/lalapan-kol-kemangi.jpg')
             },
             {
-              side: 'sambal ijo',
+              side: 'Sambal Ijo',
               img : require('../assets/img/foods/sambal-ijo.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -998,39 +998,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Nasi kuning + kering tempe + kacang',
+              side: 'Nasi Kuning + Kering Tempe + Kacang',
               img : require('../assets/img/foods/nasi-kuning-kering-tempe-kacang.jpg')
             },
             {
-              side: 'kerupuk bawang',
+              side: 'Kerupuk Bawang',
               img : require('../assets/img/foods/kerupuk-bawang.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ayam goreng bumbu kecap',
+              side: 'Ayam Goreng Bumbu Kecap',
               img : require('../assets/img/foods/ayam-goreng-bumbu-kecap.jpg')
             },
             {
-              side: 'Lalapan kol',
+              side: 'Lalapan Kol',
               img : require('../assets/img/foods/lalapan-kol.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Orak-arik telur',
+              side: 'Orak-Arik Telur',
               img : require('../assets/img/foods/orak-arik-telur.jpg')
             },
             {
-              side: 'kerupuk tempe',
+              side: 'Kerupuk Tempe',
               img : require('../assets/img/foods/kerupuk-tempe.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -1041,39 +1041,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Pecel tahu kol + tauge',
+              side: 'Pecel Tahu Kol + Tauge',
               img : require('../assets/img/foods/pecel-tahu-kol-tauge.jpg')
             },
             {
-              side: 'peyek',
+              side: 'Peyek',
               img : require('../assets/img/foods/peyek.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ayam goreng bumbu merah',
+              side: 'Ayam Goreng Bumbu Merah',
               img : require('../assets/img/foods/ayam-goreng-bumbu-merah.jpg')
             },
             {
-              side: 'lalapan kol',
+              side: 'Lalapan Kol',
               img : require('../assets/img/foods/lalapan-kol.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Nasi goreng sayuran ayam rajang',
+              side: 'Nasi Goreng Sayuran Ayam Rajang',
               img : require('../assets/img/foods/nasi-goreng-sayuran-ayam-rajang.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -1084,43 +1084,43 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Nasi uduk',
+              side: 'Nasi Uduk',
               img : require('../assets/img/foods/nasi-uduk.jpg')
             },
             {
-              side: 'sambal goreng kentang + tahu',
+              side: 'Sambal Goreng Kentang + Tahu',
               img : require('../assets/img/foods/sambal-goreng-kentang-tahu.jpg')
             },
             {
-              side: 'kerupuk bawang',
+              side: 'Kerupuk Bawang',
               img : require('../assets/img/foods/kerupuk-bawang.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ayam goreng bumbu kecap',
+              side: 'Ayam Goreng Bumbu Kecap',
               img : require('../assets/img/foods/ayam-goreng-bumbu-kecap.jpg')
             },
             {
-              side: 'lalapan kol',
+              side: 'Lalapan Kol',
               img : require('../assets/img/foods/lalapan-kol.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Sayuran bakso sapi bumbu lada hitam',
+              side: 'Sayuran Bakso Sapi Bumbu Lada Hitam',
               img : require('../assets/img/foods/sayuran-bakso-sapi-bumbu-lada-hitam.jpg')
             },
             {
-              side: 'kerupuk tempe',
+              side: 'Kerupuk Tempe',
               img : require('../assets/img/foods/kerupuk-tempe.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -1131,39 +1131,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Pecel tahu kol + tauge',
+              side: 'Pecel Tahu Kol + Tauge',
               img : require('../assets/img/foods/pecel-tahu-kol-tauge.jpg')
             },
             {
-              side: 'peyek',
+              side: 'Peyek',
               img : require('../assets/img/foods/peyek.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Ayam goreng bumbu merah',
+              side: 'Ayam Goreng Bumbu Merah',
               img : require('../assets/img/foods/ayam-goreng-bumbu-merah.jpg')
             },
             {
-              side: 'lalapan kol',
+              side: 'Lalapan Kol',
               img : require('../assets/img/foods/lalapan-kol.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Kering tempe + kacang',
+              side: 'Kering Tempe + Kacang',
               img : require('../assets/img/foods/kering-tempe-kacang.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -1180,47 +1180,47 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Sambal goreng jepan + ebi + telur puyuh',
+              side: 'Sambal Goreng Jepan + Ebi + Telur Puyuh',
               img : require('../assets/img/foods/sambal-goreng-jepan-ebi-telur-puyuh.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Garang asem ayam',
+              side: 'Garang Asem Ayam',
               img : require('../assets/img/foods/garang-asem-ayam.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Cah sayuran bakso',
+              side: 'Cah Sayuran Bakso',
               img : require('../assets/img/foods/cah-sayuran-bakso.jpg')
             },
             {
-              side: 'tempe goreng',
+              side: 'Tempe Goreng',
               img : require('../assets/img/foods/tempe-goreng.jpg')
             },
             {
-              side: 'kerupuk',
+              side: 'Kerupuk',
               img : require('../assets/img/foods/kerupuk.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -1231,39 +1231,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Sambal goreng tempe + ebi + kentang',
+              side: 'Sambal Goreng Tempe + Ebi + Kentang',
               img : require('../assets/img/foods/sambal-goreng-tempe-ebi-kentang.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Rawon surabaya',
+              side: 'Rawon Surabaya',
               img : require('../assets/img/foods/rawon-surabaya.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Bakmi kuah ayam rajang',
+              side: 'Bakmi Kuah Ayam Rajang',
               img : require('../assets/img/foods/bakmi-kuah-ayam-rajang.jpg')
             },
             {
-              side: 'kerupuk bawang',
+              side: 'Kerupuk Bawang',
               img : require('../assets/img/foods/kerupuk-bawang.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -1274,39 +1274,39 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Cap cay sayur bakso ikan saus tiram',
+              side: 'Cap Cay Sayur Bakso Ikan Saus Tiram',
               img : require('../assets/img/foods/cap-cay-sayur-bakso-ikan-saus-tiram.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Sayur asem',
+              side: 'Sayur Asem',
               img : require('../assets/img/foods/sayur-asem.jpg')
             },
             {
-              side: 'pindang goreng',
+              side: 'Pindang Goreng',
               img : require('../assets/img/foods/pindang-goreng.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Tongseng ayam',
+              side: 'Tongseng Ayam',
               img : require('../assets/img/foods/tongseng-ayam.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
@@ -1317,47 +1317,47 @@ export default [
         menu: {
           breakfast: [
             {
-              side: 'Oseng kentang + bihun',
+              side: 'Oseng Kentang + Bihun',
               img : require('../assets/img/foods/oseng-kentang-bihun.jpg')
             },
             {
-              side: 'tahu bakso',
+              side: 'Tahu Bakso',
               img : require('../assets/img/foods/tahu-bakso.jpg')
             },
             {
-              side: 'kerupuk rambak',
+              side: 'Kerupuk Rambak',
               img : require('../assets/img/foods/kerupuk-rambak.jpg')
             }
           ],
           lunch: [
             {
-              side: 'Sup ayam sayuran',
+              side: 'Sup Ayam Sayuran',
               img : require('../assets/img/foods/sup-ayam-sayuran.jpg')
             },
             {
-              side: 'kerupuk udang',
+              side: 'Kerupuk Udang',
               img : require('../assets/img/foods/kerupuk-udang.jpg')
             },
             {
-              side: 'susu',
+              side: 'Susu',
               img : require('../assets/img/foods/susu.jpg')
             }
           ],
           dinner: [
             {
-              side: 'Galantin goreng',
+              side: 'Galantin Goreng',
               img : require('../assets/img/foods/galantin-goreng.jpg')
             },
             {
-              side: 'sambal saus bombay',
+              side: 'Sambal Saus Bombay',
               img : require('../assets/img/foods/sambal-saus-bombay.jpg')
             },
             {
-              side: 'kerupuk tempe',
+              side: 'Kerupuk Tempe',
               img : require('../assets/img/foods/kerupuk-tempe.jpg')
             },
             {
-              side: 'buah',
+              side: 'Buah',
               img : require('../assets/img/foods/buah.jpg')
             }
           ]
