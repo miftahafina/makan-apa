@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 
-export default class TypeButton extends React.Component {
+export default class DateButton extends React.Component {
   render() {
     const {button, text, smallText} = styles;
     
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     height         : 85,
     backgroundColor: '#fff',
     borderTopWidth : 1,
-    borderColor    : '#e5e5e5'
+    borderColor    : '#eaeaea'
 
   },
 

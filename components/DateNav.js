@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import TypeButton from './TypeButton';
+import DateButton from './DateButton';
 
 export default class DateNav extends React.Component {
   render() {
@@ -8,9 +8,9 @@ export default class DateNav extends React.Component {
     
     return (
       <View style={container}>
-        <TypeButton type='Kemarin' action={this.props.prevDay}/>
-        <TypeButton type='Hari ini' action={this.props.toDay}/>
-        <TypeButton type='Besok' action={this.props.nextDay}/>
+        <DateButton type='Kemarin' action={this.props.prevDay}/>
+        <DateButton type='Hari ini' action={this.props.toDay}/>
+        <DateButton type='Besok' action={this.props.nextDay}/>
       </View>
     )
   }
