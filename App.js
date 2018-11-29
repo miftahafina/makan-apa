@@ -20,7 +20,7 @@ export default class App extends React.Component {
     date : new Date().getDate(),
     month: new Date().getMonth(),
     year : new Date().getFullYear(),
-    week : this.state.moment.week(),
+    week : Moment().week(),
     
     schedule: schedule,
     menu_a: [48,52,4, 8,12,16,20,24,28,32,36,40,44],
