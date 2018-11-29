@@ -3,15 +3,11 @@ import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground } from
 import schedule from './databases/schedule.js';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
-import TypeNav from './components/TypeNav';
+import DateNav from './components/DateNav';
 import CreditFooter from './components/CreditFooter';
 import Moment from 'moment';
 
 export default class App extends React.Component {
-  state = {
-    moment: Moment()
-  }
-
   state = {
     dayId  : ['Ahad', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum\'at', 'Sabtu'],
     monthId: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'],
@@ -52,10 +48,10 @@ export default class App extends React.Component {
     return (
       <View style={container}>
         <ImageBackground source={require('./assets/img/bg.png')} style={{width: '100%', height: '100%'}}>
-          <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
             <Today day={dayId[moment.day()]}
             date={moment.date() + ' ' + monthId[moment.month()] + ' ' + moment.year()}
             week={moment.week()} typeId={typeId}/>
+          <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
             
             <SideDishScroller meal='breakfast' mealId='Pagi' day={moment.day()} type={type}/>
             <SideDishScroller meal='lunch' mealId='Siang' day={moment.day()} type={type}/>
@@ -63,7 +59,7 @@ export default class App extends React.Component {
 
             <CreditFooter />
           </ScrollView>
-          <TypeNav />
+          <DateNav />
         </ImageBackground>
       </View>
     );
@@ -80,7 +76,8 @@ const styles = StyleSheet.create({
   },
 
   verticalScroll: {
-    marginBottom: 27
+    paddingTop  : 15,
+    marginBottom: 42
   }
 });
 

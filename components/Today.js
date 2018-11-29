@@ -25,8 +25,9 @@ export default class Today extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop : 30, 
-    marginLeft: 20
+    marginTop   : 30,
+    marginLeft  : 20,
+    marginBottom: 15
   },
 
   day: {
@@ -43,7 +44,6 @@ const styles = StyleSheet.create({
   
   week: {
     fontSize    : 12,
-    marginBottom: 30,
     color       : '#fff',
     opacity: 0.5
   }
