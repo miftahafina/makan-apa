@@ -6,7 +6,7 @@ export default class TypeButton extends React.Component {
     const {button, text, smallText} = styles;
     
     return (
-      <TouchableOpacity style={button}>
+      <TouchableOpacity style={button} onPress={this.props.action}>
         <Text style={text}>
           {this.props.type}
         </Text>

@@ -8,9 +8,9 @@ export default class DateNav extends React.Component {
     
     return (
       <View style={container}>
-        <TypeButton type='Kemarin'/>
-        <TypeButton type='Hari ini'/>
-        <TypeButton type='Besok'/>
+        <TypeButton type='Kemarin' action={this.props.prevDay}/>
+        <TypeButton type='Hari ini' action={this.props.toDay}/>
+        <TypeButton type='Besok' action={this.props.nextDay}/>
       </View>
     )
   }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground } from 'react-native';
+import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground, TouchableOpacity } from 'react-native';
 import schedule from './databases/schedule.js';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
@@ -19,6 +19,24 @@ export default class App extends React.Component {
     menu_b  : [49, 1,5, 9,13,17,21,25,29,33,37,41,45],
     menu_c  : [50, 2,6,10,14,18,22,26,30,34,38,42,46],
     menu_d  : [51, 3,7,11,15,19,23,27,31,35,39,43,47]
+  }
+
+  nextDay = () => {
+    this.setState({
+      moment: this.state.moment.add(1, 'day')
+    })
+  }
+  
+  prevDay = () => {
+    this.setState({
+      moment: this.state.moment.subtract(1, 'day')
+    })
+  }
+
+  toDay = () => {
+    this.setState({
+      moment: Moment()
+    })
   }
 
   render() {
@@ -48,18 +66,20 @@ export default class App extends React.Component {
     return (
       <View style={container}>
         <ImageBackground source={require('./assets/img/bg.png')} style={{width: '100%', height: '100%'}}>
+          <TouchableOpacity onPress={this.toDay}>
             <Today day={dayId[moment.day()]}
-            date={moment.date() + ' ' + monthId[moment.month()] + ' ' + moment.year()}
-            week={moment.week()} typeId={typeId}/>
+              date={moment.date() + ' ' + monthId[moment.month()] + ' ' + moment.year()}
+              week={moment.week()} typeId={typeId}
+            />
+          </TouchableOpacity>
+
           <ScrollView style={verticalScroll} showsVerticalScrollIndicator={false}>
-            
             <SideDishScroller meal='breakfast' mealId='Pagi' day={moment.day()} type={type}/>
             <SideDishScroller meal='lunch' mealId='Siang' day={moment.day()} type={type}/>
             <SideDishScroller meal='dinner' mealId='Malam' day={moment.day()} type={type}/>
-
             <CreditFooter />
           </ScrollView>
-          <DateNav />
+          <DateNav prevDay={this.prevDay} nextDay={this.nextDay} toDay={this.toDay}/>
         </ImageBackground>
       </View>
     );
