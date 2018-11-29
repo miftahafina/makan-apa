@@ -40,8 +40,6 @@ const styles = StyleSheet.create({
   container: {
     flex           : 1,
     backgroundColor: '#fff',
-    borderColor    : '#e5e5e5',
-    borderWidth    : 1,
     alignItems     : 'flex-start',
     flexDirection  : 'column',
     justifyContent : 'flex-start',

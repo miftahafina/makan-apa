@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import DateButton from './DateButton';
 
 export default class DateNav extends React.Component {
@@ -8,9 +8,17 @@ export default class DateNav extends React.Component {
     
     return (
       <View style={container}>
-        <DateButton type='Kemarin' action={this.props.prevDay}/>
-        <DateButton type='Hari ini' action={this.props.toDay}/>
-        <DateButton type='Besok' action={this.props.nextDay}/>
+        <DateButton action={this.props.prevDay} img={require('../assets/img/navs/prev.png')}>
+          Kemarin
+        </DateButton>
+
+        <DateButton action={this.props.toDay} img={require('../assets/img/navs/today.png')}>
+          Hari ini
+        </DateButton>
+        
+        <DateButton action={this.props.nextDay} img={require('../assets/img/navs/next.png')}>
+          Besok
+        </DateButton>
       </View>
     )
   }

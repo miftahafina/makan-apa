@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
 
   verticalScroll: {
     paddingTop  : 15,
-    marginBottom: 42
+    marginBottom: 52
   }
 });
 
