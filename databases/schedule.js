@@ -1,0 +1,1368 @@
+export default [
+  {
+    id  : 0,
+    day : 'Ahad',
+    type: [
+      {
+        name: 'A',
+        menu: {
+          breakfast: [
+            {
+              side: 'Oseng tahu kacang panjang',
+              img : 'oseng-tahu-kacang-panjang.jpg'
+            },
+            {
+              side: 'Pepes ikan',
+              img : 'pepes-ikan.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Gado-gado',
+              img : 'gado-gado.jpg'
+            },
+            {
+              side: 'telur rebus',
+              img : 'telur-rebus.jpg'
+            },
+            {
+              side: 'peyek',
+              img : 'peyek.jpg'
+            },
+            {
+              side: 'bubur kacang hijau',
+              img : 'bubur-kacang-hijau.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Bandeng goreng',
+              img : 'bandeng-goreng.jpg'
+            },
+            {
+              side: 'sambel tomat',
+              img : 'sambel-tomat.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'B',
+        menu: {
+          breakfast: [
+            {
+              side: 'Opor telur',
+              img : 'opor-telur.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Soto daging sapi',
+              img : 'soto-daging-sapi.jpg'
+            },
+            {
+              side: 'karak',
+              img : 'karak.jpg'
+            },
+            {
+              side: 'bubur kacang hijau',
+              img : 'bubur-kacang-hijau.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Gado-gado',
+              img : 'gado-gado.jpg'
+            },
+            {
+              side: 'telur rebus',
+              img : 'telur-rebus.jpg'
+            },
+            {
+              side: 'peyek',
+              img : 'peyek.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'C',
+        menu: {
+          breakfast: [
+            {
+              side: 'Bandeng bumbu sarden',
+              img : 'bandeng-bumbu-sarden.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Soto ayam lamongan',
+              img : 'soto-ayam-lamongan.jpg'
+            },
+            {
+              side: 'tempe goreng',
+              img : 'tempe-goreng.jpg'
+            },
+            {
+              side: 'bubur kacang hijau',
+              img : 'bubur-kacang-hijau.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Bakso kuah tahu',
+              img : 'bakso-kuah-tahu.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'D',
+        menu: {
+          breakfast: [
+            {
+              side: 'Soto ayam',
+              img : 'soto-ayam.jpg'
+            },
+            {
+              side: 'tempe goreng',
+              img : 'tempe-goreng.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Bakso daging sapi komplit',
+              img : 'bakso-daging-sapi-komplit.jpg'
+            },
+            {
+              side: 'pangsit',
+              img : 'pangsit.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Nasi kuning',
+              img : 'nasi-kuning.jpg'
+            },
+            {
+              side: 'nugget kakap',
+              img : 'nugget-kakap.jpg'
+            },
+            {
+              side: 'kerupuk bawang',
+              img : 'kerupuk-bawang.jpg'
+            },
+            {
+              side: 'sambel tomat',
+              img : 'sambel-tomat.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    id  : 1,
+    day : 'Senin',
+    type: [
+      {
+        name: 'A',
+        menu: {
+          breakfast: [
+            {
+              side: 'Sup sayuran ayam rajang',
+              img : 'sup-sayuran-ayam-rajang.jpg'
+            },
+            {
+              side: 'tahu goreng',
+              img : 'tahu-goreng.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ikan patin goreng kuah santan',
+              img : 'ikan-patin-goreng-kuah-santan.jpg'
+            },
+            {
+              side: 'kemangi',
+              img : 'kemangi.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Ayam bumbu balado',
+              img : 'ayam-bumbu-balado.jpg'
+            },
+            {
+              side: 'lalapan kol',
+              img : 'lalapan-kol.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'B',
+        menu: {
+          breakfast: [
+            {
+              side: 'Daging tahu pong bumbu rendang',
+              img : 'daging-tahu-pong-bumbu-rendang.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Sayur bayam',
+              img : 'sayur-bayam.jpg'
+            },
+            {
+              side: 'galantin',
+              img : 'galantin.jpg'
+            },
+            {
+              side: 'sambal terasi',
+              img : 'sambal-terasi.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Ayam rica-rica',
+              img : 'ayam-rica-rica.jpg'
+            },
+            {
+              side: 'lalapan kol',
+              img : 'lalapan-kol.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'C',
+        menu: {
+          breakfast: [
+            {
+              side: 'Opor ayam',
+              img : 'opor-ayam.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Sayur lodeh',
+              img : 'sayur-lodeh.jpg'
+            },
+            {
+              side: 'galantin kakap',
+              img : 'galantin-kakap.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Ikan patin goreng bumbu kuning',
+              img : 'ikan-patin-goreng-bumbu-kuning.jpg'
+            },
+            {
+              side: 'lalapan timun',
+              img : 'lalapan-timun.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'D',
+        menu: {
+          breakfast: [
+            {
+              side: 'Sambal balado terong ungu',
+              img : 'sambal-balado-terong-ungu.jpg'
+            },
+            {
+              side: 'pindang goreng',
+              img : 'pindang-goreng.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Bandeng presto goreng',
+              img : 'bandeng-presto-goreng.jpg'
+            },
+            {
+              side: 'bumbu bali',
+              img : 'bumbu-bali.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Ayam pedas',
+              img : 'ayam-pedas.jpg'
+            },
+            {
+              side: 'lalapan timun',
+              img : 'lalapan-timun.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    id  : 2,
+    day : 'Selasa',
+    type: [
+      {
+        name: 'A',
+        menu: {
+          breakfast: [
+            {
+              side: 'Galantin kakap bumbu rujak',
+              img : 'galantin-kakap-bumbu-rujak.jpg'
+            },
+            {
+              side: 'kerupuk tempe',
+              img : 'kerupuk-tempe.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Sayur asem',
+              img : 'sayur-asem.jpg'
+            },
+            {
+              side: 'pindang goreng',
+              img : 'pindang-goreng.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Mie goreng sayuran',
+              img : 'mie-goreng-sayuran.jpg'
+            },
+            {
+              side: 'telur rebus',
+              img : 'telur-rebus.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'B',
+        menu: {
+          breakfast: [
+            {
+              side: 'Tahu terik kuning',
+              img : 'tahu-terik-kuning.jpg'
+            },
+            {
+              side: 'telur asin',
+              img : 'telur-asin.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Bakso daging sapi komplit',
+              img : 'bakso-daging-sapi-komplit.jpg'
+            },
+            {
+              side: 'pangsit',
+              img : 'pangsit.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Nugget kakap',
+              img : 'nugget-kakap.jpg'
+            },
+            {
+              side: 'sambal kerupuk',
+              img : 'sambal-kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'C',
+        menu: {
+          breakfast: [
+            {
+              side: 'Tumis buncis + ebi bumbu kuning',
+              img : 'tumis-buncis-ebi-bumbu-kuning.jpg'
+            },
+            {
+              side: 'tahu bakso ikan',
+              img : 'tahu-bakso-ikan.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Gulai daging sapi',
+              img : 'gulai-daging-sapi.jpg'
+            },
+            {
+              side: 'karak',
+              img : 'karak.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Balado tempe + ebi',
+              img : 'balado-tempe-ebi.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'D',
+        menu: {
+          breakfast: [
+            {
+              side: 'Oseng tahu + kacang panjang',
+              img : 'oseng-tahu-kacang-panjang.jpg'
+            },
+            {
+              side: 'pepes ikan',
+              img : 'pepes-ikan.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Soto daging sapi',
+              img : 'soto-daging-sapi.jpg'
+            },
+            {
+              side: 'karak',
+              img : 'karak.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Sambal goreng janten + tahu + ebi',
+              img : 'sambal-goreng-janten-tahu-ebi.jpg'
+            },
+            {
+              side: 'telur asin',
+              img : 'telur-asin.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    id  : 3,
+    day : 'Rabu',
+    type: [
+      {
+        name: 'A',
+        menu: {
+          breakfast: [
+            {
+              side: 'Sayuran bakso sapi bumbu lada hitam',
+              img : 'sayuran-bakso-sapi-bumbu-lada-hitam.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Soto daging sapi',
+              img : 'soto-daging-sapi.jpg'
+            },
+            {
+              side: 'karak',
+              img : 'karak.jpg'
+            },
+            {
+              side: 'bubur kacang hijau',
+              img : 'bubur-kacang-hijau.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Sambal goreng kering tahu + kentang',
+              img : 'sambal-goreng-kering-tahu-kentang.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'B',
+        menu: {
+          breakfast: [
+            {
+              side: 'Tumis bakso ikan sayur pedas manis',
+              img : 'tumis-bakso-ikan-sayur-pedas-manis.jpg'
+            },
+            {
+              side: 'kerupuk tempe',
+              img : 'kerupuk-tempe.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ayam bacem',
+              img : 'ayam-bacem.jpg'
+            },
+            {
+              side: 'lalapan timun',
+              img : 'lalapan-timun.jpg'
+            },
+            {
+              side: 'sambel ijo',
+              img : 'sambel-ijo.jpg'
+            },
+            {
+              side: 'bubur kacang hijau',
+              img : 'bubur-kacang-hijau.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Sup sayuran bakso sapi',
+              img : 'sup-sayuran-bakso-sapi.jpg'
+            },
+            {
+              side: 'tahu goreng',
+              img : 'tahu-goreng.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'C',
+        menu: {
+          breakfast: [
+            {
+              side: 'Mie goreng bakso',
+              img : 'mie-goreng-bakso.jpg'
+            },
+            {
+              side: 'telur rebus',
+              img : 'telur-rebus.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ayam tepung',
+              img : 'ayam-tepung.jpg'
+            },
+            {
+              side: 'sambal bajak',
+              img : 'sambal-bajak.jpg'
+            },
+            {
+              side: 'bubur kacang hijau',
+              img : 'bubur-kacang-hijau.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Oseng tahu jamur',
+              img : 'oseng-tahu-jamur.jpg'
+            },
+            {
+              side: 'telur puyuh',
+              img : 'telur-puyuh.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'D',
+        menu: {
+          breakfast: [
+            {
+              side: 'Kare ayam',
+              img : 'kare-ayam.jpg'
+            },
+            {
+              side: 'kerupuk tempe',
+              img : 'kerupuk-tempe.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ikan patin goreng bumbu merah',
+              img : 'ikan-patin-goreng-bumbu-merah.jpg'
+            },
+            {
+              side: 'lalapan kol',
+              img : 'lalapan-kol.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Tumis buncis ayam rajang',
+              img : 'tumis-buncis-ayam-rajang.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    id  : 4,
+    day : 'Kamis',
+    type: [
+      {
+        name: 'A',
+        menu: {
+          breakfast: [
+            {
+              side: 'Oseng janten + ebi + wortel + ayam',
+              img : 'oseng-janten-ebi-wortel-ayam.jpg'
+            },
+            {
+              side: 'telor rebus',
+              img : 'telor-rebus.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Sayur lodeh',
+              img : 'sayur-lodeh.jpg'
+            },
+            {
+              side: 'galantin goreng',
+              img : 'galantin-goreng.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Ayam tepung',
+              img : 'ayam-tepung.jpg'
+            },
+            {
+              side: 'sambal tomat',
+              img : 'sambal-tomat.jpg'
+            },
+            {
+              side: 'lalapan timun',
+              img : 'lalapan-timun.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'B',
+        menu: {
+          breakfast: [
+            {
+              side: 'Oseng tempe kacang panjang',
+              img : 'oseng-tempe-kacang-panjang.jpg'
+            },
+            {
+              side: 'telur rebus',
+              img : 'telur-rebus.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ikan patin asam pedas',
+              img : 'ikan-patin-asam-pedas.jpg'
+            },
+            {
+              side: 'lalapan timun',
+              img : 'lalapan-timun.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Ayam bumbu bali',
+              img : 'ayam-bumbu-bali.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'C',
+        menu: {
+          breakfast: [
+            {
+              side: 'Rendang daging tahu',
+              img : 'rendang-daging-tahu.jpg'
+            },
+            {
+              side: 'kerupuk tempe',
+              img : 'kerupuk-tempe.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Sup',
+              img : 'sup.jpg'
+            },
+            {
+              side: 'nugget kakap goreng',
+              img : 'nugget-kakap-goreng.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Rendang ayam',
+              img : 'rendang-ayam.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'D',
+        menu: {
+          breakfast: [
+            {
+              side: 'Sup sayuran bakso ikan',
+              img : 'sup-sayuran-bakso-ikan.jpg'
+            },
+            {
+              side: 'tempe bacem',
+              img : 'tempe-bacem.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Asem-asem daging janten',
+              img : 'asem-asem-daging-janten.jpg'
+            },
+            {
+              side: 'tahu goreng',
+              img : 'tahu-goreng.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Ayam bacem',
+              img : 'ayam-bacem.jpg'
+            },
+            {
+              side: 'lalapan kol + kemangi',
+              img : 'lalapan-kol-kemangi.jpg'
+            },
+            {
+              side: 'sambal ijo',
+              img : 'sambal-ijo.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    id  : 5,
+    day : 'Jum\'at',
+    type: [
+      {
+        name: 'A',
+        menu: {
+          breakfast: [
+            {
+              side: 'Nasi kuning + kering tempe + kacang',
+              img : 'nasi-kuning-kering-tempe-kacang.jpg'
+            },
+            {
+              side: 'kerupuk bawang',
+              img : 'kerupuk-bawang.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ayam goreng bumbu kecap',
+              img : 'ayam-goreng-bumbu-kecap.jpg'
+            },
+            {
+              side: 'Lalapan kol',
+              img : 'lalapan-kol.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Orak-arik telur',
+              img : 'orak-arik-telur.jpg'
+            },
+            {
+              side: 'kerupuk tempe',
+              img : 'kerupuk-tempe.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'B',
+        menu: {
+          breakfast: [
+            {
+              side: 'Pecel tahu kol + tauge',
+              img : 'pecel-tahu-kol-tauge.jpg'
+            },
+            {
+              side: 'peyek',
+              img : 'peyek.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ayam goreng bumbu merah',
+              img : 'ayam-goreng-bumbu-merah.jpg'
+            },
+            {
+              side: 'lalapan kol',
+              img : 'lalapan-kol.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Nasi goreng sayuran ayam rajang',
+              img : 'nasi-goreng-sayuran-ayam-rajang.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'C',
+        menu: {
+          breakfast: [
+            {
+              side: 'Nasi uduk',
+              img : 'nasi-uduk.jpg'
+            },
+            {
+              side: 'sambel goreng kentang + tahu',
+              img : 'sambel-goreng-kentang-tahu.jpg'
+            },
+            {
+              side: 'kerupuk bawang',
+              img : 'kerupuk-bawang.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ayam goreng bumbu kecap',
+              img : 'ayam-goreng-bumbu-kecap.jpg'
+            },
+            {
+              side: 'lalapan kol',
+              img : 'lalapan-kol.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Sayuran bakso sapi bumbu lada hitam',
+              img : 'sayuran-bakso-sapi-bumbu-lada-hitam.jpg'
+            },
+            {
+              side: 'kerupuk tempe',
+              img : 'kerupuk-tempe.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'D',
+        menu: {
+          breakfast: [
+            {
+              side: 'Pecel tahu kol + tauge',
+              img : 'pecel-tahu-kol-tauge.jpg'
+            },
+            {
+              side: 'peyek',
+              img : 'peyek.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Ayam goreng bumbu merah',
+              img : 'ayam-goreng-bumbu-merah.jpg'
+            },
+            {
+              side: 'lalapan kol',
+              img : 'lalapan-kol.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Kering tempe + kacang',
+              img : 'kering-tempe-kacang.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    id  : 6,
+    day : 'Sabtu',
+    type: [
+      {
+        name: 'A',
+        menu: {
+          breakfast: [
+            {
+              side: 'Sambal goreng jepan + ebi + telur puyuh',
+              img : 'sambal-goreng-jepan-ebi-telur-puyuh.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Garang asem ayam',
+              img : 'garang-asem-ayam.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Cah sayuran bakso',
+              img : 'cah-sayuran-bakso.jpg'
+            },
+            {
+              side: 'tempe goreng',
+              img : 'tempe-goreng.jpg'
+            },
+            {
+              side: 'kerupuk',
+              img : 'kerupuk.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'B',
+        menu: {
+          breakfast: [
+            {
+              side: 'Sambal goreng tempe + ebi + kentang',
+              img : 'sambal-goreng-tempe-ebi-kentang.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Rawon surabaya',
+              img : 'rawon-surabaya.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Bakmi kuah ayam rajang',
+              img : 'bakmi-kuah-ayam-rajang.jpg'
+            },
+            {
+              side: 'kerupuk bawang',
+              img : 'kerupuk-bawang.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'C',
+        menu: {
+          breakfast: [
+            {
+              side: 'Cap cay sayur bakso ikan saus tiram',
+              img : 'cap-cay-sayur-bakso-ikan-saus-tiram.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Sayur asem',
+              img : 'sayur-asem.jpg'
+            },
+            {
+              side: 'pindang goreng',
+              img : 'pindang-goreng.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Tongseng ayam',
+              img : 'tongseng-ayam.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      },
+      {
+        name: 'D',
+        menu: {
+          breakfast: [
+            {
+              side: 'Oseng kentang + bihun',
+              img : 'oseng-kentang-bihun.jpg'
+            },
+            {
+              side: 'tahu bakso',
+              img : 'tahu-bakso.jpg'
+            },
+            {
+              side: 'kerupuk rambak',
+              img : 'kerupuk-rambak.jpg'
+            }
+          ],
+          lunch: [
+            {
+              side: 'Sup ayam sayuran',
+              img : 'sup-ayam-sayuran.jpg'
+            },
+            {
+              side: 'kerupuk udang',
+              img : 'kerupuk-udang.jpg'
+            },
+            {
+              side: 'susu',
+              img : 'susu.jpg'
+            }
+          ],
+          dinner: [
+            {
+              side: 'Galantin goreng',
+              img : 'galantin-goreng.jpg'
+            },
+            {
+              side: 'sambal saus bombay',
+              img : 'sambal-saus-bombay.jpg'
+            },
+            {
+              side: 'kerupuk tempe',
+              img : 'kerupuk-tempe.jpg'
+            },
+            {
+              side: 'buah',
+              img : 'buah.jpg'
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

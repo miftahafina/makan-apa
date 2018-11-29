@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, AppRegistry, ScrollView } from 'react-native';
 import SideDishBox from './SideDishBox';
 import MealsTitle from './MealsTitle';
-import schedule from '../databases/schedule.json';
+import schedule from '../databases/schedule.js';
 
 export default class App extends React.Component {
   state = {

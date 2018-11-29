@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground } from 'react-native';
-import schedule from './databases/schedule.json';
+import schedule from './databases/schedule.js';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
 import TypeNav from './components/TypeNav';
