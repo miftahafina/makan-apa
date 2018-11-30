@@ -11,7 +11,7 @@ export default class CreditFooter extends React.Component {
           Foto yang tercantum hanya sebagai ilustrasi{'\n'}
           Mohon maaf jika terdapat prediksi yang keliru
         </Text>
-        <Text style={text}>Made with 💖 ️By Miftah Afina</Text>
+        <Text style={text}>Made with 💖 ️by Miftah Afina</Text>
       </View>
     )
   }
