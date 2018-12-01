@@ -1,14 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, Image, View, TouchableNativeFeedback } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { WebBrowser } from 'expo';
 
 export default class DateButton extends React.Component {
+  openBrowser = () => {
+    WebBrowser.openBrowserAsync('https://miftahafina.com/makanapa');
+  }
+
   render() {
     const {button, text} = styles;
     
     return (
-    <View style={button}>
-      <Text style={text}>Perbaharui Aplikasi</Text>
-    </View>
+    <TouchableOpacity style={button} onPress={this.openBrowser}>
+      <Text style={text}>Update Aplikasi</Text>
+    </TouchableOpacity>
     )
   }
 }
