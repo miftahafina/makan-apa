@@ -1,17 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, Image, View, TouchableNativeFeedback } from 'react-native';
 
 export default class DateButton extends React.Component {
   render() {
     const {button, text, image} = styles;
     
     return (
-      <TouchableOpacity style={button} onPress={this.props.action}>
-        <Image style={image} source={this.props.img}/>
-        <Text style={text}>
-          {this.props.children}
-        </Text>
-      </TouchableOpacity>
+      <TouchableNativeFeedback style={button} onPress={this.props.action}>
+        <View style={button}>
+          <Image style={image} source={this.props.img}/>
+          <Text style={text}>
+            {this.props.children}
+          </Text>
+        </View>
+      </TouchableNativeFeedback>
     )
   }
 }
