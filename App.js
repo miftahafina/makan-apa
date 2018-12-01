@@ -6,6 +6,7 @@ import Today from './components/Today';
 import DateNav from './components/DateNav';
 import CreditFooter from './components/CreditFooter';
 import Moment from 'moment';
+import UpdateButton from './components/UpdateButton';
 
 export default class App extends React.Component {
   state = {
@@ -94,6 +95,8 @@ export default class App extends React.Component {
             <SideDishScroller meal='breakfast' mealId='Pagi' day={moment.day()} type={type}/>
             <SideDishScroller meal='lunch' mealId='Siang' day={moment.day()} type={type}/>
             <SideDishScroller meal='dinner' mealId='Malam' day={moment.day()} type={type}/>
+
+            <UpdateButton />
             <CreditFooter />
           </ScrollView>
           <DateNav prevDay={this.prevDay} nextDay={this.nextDay} toDay={this.toDay} share={this.share}/>
