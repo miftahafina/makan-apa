@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground, TouchableOpacity, Share } from 'react-native';
+import { StyleSheet, Text, View, AppRegistry, ScrollView, ImageBackground, TouchableOpacity, Share, Alert } from 'react-native';
 import schedule from './databases/schedule.js';
 import SideDishScroller from './components/SideDishScroller';
 import Today from './components/Today';
@@ -40,17 +40,19 @@ export default class App extends React.Component {
   }
 
   share = () => {
-    const {dayId, moment, monthId} = this.state;
+    // const {dayId, moment, monthId, schedule} = this.state;
+    
+    Alert.alert('Maaf', 'Fitur bagikan belum dapat digunakan');
 
-    Share.share({
-      title  : 'Prediksi Lauk',
-      message: `Prediksi lauk hari ${dayId[moment.day()]}, ${moment.date()} ${monthId[moment.month()]} ${moment.year()} adalah: 
-Pagi: 
-Siang: 
-Malam: `
-    }, {
-      dialogTitle: `Bagikan prediksi lauk hari ${dayId[moment.day()]}`
-    })
+//     Share.share({
+//       title  : 'Prediksi Lauk',
+//       message: `Prediksi lauk hari ${dayId[moment.day()]}, ${moment.date()} ${monthId[moment.month()]} ${moment.year()} adalah: 
+// Pagi: ${schedule[dayId[moment.day()]].type[0].menu['breakfast'].map(item => item.side)}
+// Siang: 
+// Malam: `
+//     }, {
+//       dialogTitle: `Bagikan prediksi lauk hari ${dayId[moment.day()]}`
+//     })
   }
 
   render() {
