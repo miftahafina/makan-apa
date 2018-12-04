@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "MakanApa",
-    "description": "Makan apa di math'am hari ini?",
+    "name": "Makan Apa",
+    "description": "Lauk math'am hari ini",
     "slug": "makan-apa",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": ["android"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -24,7 +24,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.miftahafina.makanapa"
+      "package": "com.miftahafina.makanapah"
     }
   }
 }
