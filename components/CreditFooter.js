@@ -7,9 +7,12 @@ export default class CreditFooter extends React.Component {
     
     return (
       <View style={container}>
-        <Text style={smallText}>
+        {/* <Text style={smallText}>
           Foto yang tercantum hanya sebagai ilustrasi{'\n'}
           Jika terdapat prediksi yang keliru, silakan update aplikasi terlebih dahulu
+        </Text> */}
+        <Text style={smallText}>
+          Jadwal menu merupakan rahasia dapur. hehe
         </Text>
         <Text style={text}>Made with 💖 ️by Miftah Afina</Text>
       </View>

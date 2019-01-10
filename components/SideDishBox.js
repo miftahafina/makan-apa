@@ -7,9 +7,11 @@ export default class SideDishBox extends React.Component {
 
     return (
       <View style={container}>
-        <Image source={this.props.img} style={box}></Image>
+        {/* <Image source={this.props.img} style={box}></Image> */}
+        <Image source={require('../assets/img/placeholder.png')} style={box}></Image>
         <Text style={text}>
-          {this.props.children}
+          {/* {this.props.children} */}
+          Rahasia Dapur
         </Text>
       </View>
     );
